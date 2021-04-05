@@ -1,0 +1,1782 @@
+--------------------------------------------------------------------------------
+Codebook for Social Explorer report ID: R12794912
+--------------------------------------------------------------------------------
+
+Contents
+    - Table Summary
+    - Data Dictionary
+    - Citation and Use
+
+
+--------------------------------------------------------------------------------
+Table Summary
+--------------------------------------------------------------------------------
+ 
+Survey:           ACS 2019 (5-Year Estimates)
+Dataset:          Social Explorer Tables: ACS 2019 (5-Year Estimates)
+Tables:
+
+      1. Total Population
+         Universe:  Total Population
+         Name:      A00001
+         Variables:
+            A00001_001:   Total Population
+
+
+      2. Population Density (Per Sq. Mile)
+         Universe:  Total Population
+         Name:      A00002
+         Variables:
+            A00002_001:   Total Population
+            A00002_002:   Population Density (Per Sq. Mile)
+            A00002_003:   Area (Land)
+
+
+      3. Race
+         Universe:  Total Population
+         Name:      A03001
+         Variables:
+            A03001_001:   Total Population:
+            A03001_002:      White Alone
+            A03001_003:      Black or African American Alone
+            A03001_004:      American Indian and Alaska Native Alone
+            A03001_005:      Asian Alone
+            A03001_006:      Native Hawaiian and Other Pacific Islander Alone
+            A03001_007:      Some Other Race Alone
+            A03001_008:      Two or More Races
+
+
+      4. Hispanic or Latino by Race
+         Universe:  Total Population
+         Name:      A04001
+         Variables:
+            A04001_001:   Total Population
+            A04001_002:      Not Hispanic or Latino:
+            A04001_003:         White Alone
+            A04001_004:         Black or African American Alone
+            A04001_005:         American Indian and Alaska Native Alone
+            A04001_006:         Asian Alone
+            A04001_007:         Native Hawaiian and Other Pacific Islander Alone
+            A04001_008:         Some Other Race Alone
+            A04001_009:         Two or More Races
+            A04001_010:      Hispanic or Latino:
+            A04001_011:         White Alone
+            A04001_012:         Black or African American Alone
+            A04001_013:         American Indian and Alaska Native Alone
+            A04001_014:         Asian Alone
+            A04001_015:         Native Hawaiian and Other Pacific Islander Alone
+            A04001_016:         Some Other Race Alone
+            A04001_017:         Two or More Races
+
+
+      5. Educational Attainment for Population 25 Years and Over
+         Universe:  Population 25 Years and Over
+         Name:      A12001
+         Variables:
+            A12001_001:   Population 25 Years and Over:
+            A12001_002:      Less than High School
+            A12001_003:      High School Graduate (Includes Equivalency)
+            A12001_004:      Some College
+            A12001_005:      Bachelor's Degree
+            A12001_006:      Master's Degree
+            A12001_007:      Professional School Degree
+            A12001_008:      Doctorate Degree
+
+
+      6. Highest Educational Attainment for Population 25 Years and Over
+         Universe:  Population 25 Years and Over
+         Name:      A12002
+         Variables:
+            A12002_001:   Population 25 Years and Over:
+            A12002_002:      Less than High School
+            A12002_003:      High School Graduate or More (Includes Equivalency)
+            A12002_004:      Some College or More
+            A12002_005:      Bachelor's Degree or More
+            A12002_006:      Master's Degree or More
+            A12002_007:      Professional School Degree or More
+            A12002_008:      Doctorate Degree
+
+
+      7. Unemployment Rate for Civilian Population in Labor Force 16 Years and Over
+         Universe:  Civilian Population in Labor Force 16 Years and Over:
+         Name:      A17005
+         Variables:
+            A17005_001:   Civilian Population in Labor Force 16 Years and Over:
+            A17005_002:      Employed
+            A17005_003:      Unemployed
+
+
+      8. Industry by Occupation for Employed Civilian Population 16 Years and Over
+         Universe:  Civilian employed population 16 years and Over
+         Name:      A17004
+         Variables:
+            A17004_001:   Total Employed Civilian Population 16 Years and Over:
+            A17004_002:      Agriculture, Forestry, Fishing and Hunting, and Mining
+            A17004_003:      Construction
+            A17004_004:      Manufacturing
+            A17004_005:      Wholesale Trade
+            A17004_006:      Retail Trade
+            A17004_007:      Transportation and Warehousing, and Utilities
+            A17004_008:      Information
+            A17004_009:      Finance and Insurance, and Real Estate and Rental  and Leasing
+            A17004_010:      Professional, Scientific, and Management, and  Administrative and Waste Management Services
+            A17004_011:      Educational Services, and Health Care and Social  Assistance
+            A17004_012:      Arts, Entertainment, and Recreation, and  Accommodation and Food Services
+            A17004_013:      Other Services, Except Public Administration
+            A17004_014:      Public Administration
+
+
+      9. Occupation for Employed Civilian Population 16 Years and Over
+         Universe:  Employed civilian Population 16 Years and Over
+         Name:      B17008
+         Variables:
+            B17008_001:   Employed Civilian Population 16 Years and Over:
+            B17008_002:      Management, Business, and Financial Operations  Occupations
+            B17008_003:      Professional and Related Occupations
+            B17008_004:      Healthcare Support Occupations
+            B17008_005:      Protective Service Occupations
+            B17008_006:      Food Preparation and Serving Related Occupations
+            B17008_007:      Building and Grounds Cleaning and Maintenance  Occupations
+            B17008_008:      Personal Care and Service Occupations
+            B17008_009:      Sales and Related Occupations
+            B17008_010:      Office and Administrative Support Occupations
+            B17008_011:      Farming, Fishing, and Forestry Occupations
+            B17008_012:      Construction, Extraction, and Maintenance  Occupations
+            B17008_013:      Production Occupations
+            B17008_014:      Transportation and Material Moving Occupations
+
+
+      10. Household Income (In <DollarYear> Inflation Adjusted Dollars)
+          Universe:  Households
+          Name:      A14001
+          Variables:
+             A14001_001:   Households:
+             A14001_002:      Less than $10,000
+             A14001_003:      $10,000 to $14,999
+             A14001_004:      $15,000 to $19,999
+             A14001_005:      $20,000 to $24,999
+             A14001_006:      $25,000 to $29,999
+             A14001_007:      $30,000 to $34,999
+             A14001_008:      $35,000 to $39,999
+             A14001_009:      $40,000 to $44,999
+             A14001_010:      $45,000 to $49,999
+             A14001_011:      $50,000 to $59,999
+             A14001_012:      $60,000 to $74,999
+             A14001_013:      $75,000 to $99,999
+             A14001_014:      $100,000 to $124,999
+             A14001_015:      $125,000 to $149,999
+             A14001_016:      $150,000 to $199,999
+             A14001_017:      $200,000 or More
+
+
+      11. Median Household Income (In <DollarYear> Inflation Adjusted Dollars)
+          Universe:  Households
+          Name:      A14006
+          Variables:
+             A14006_001:   Median Household Income (In 2019 Inflation Adjusted Dollars)
+
+
+      12. Median Household Income by Race (In <DollarYear> Inflation Adjusted Dollars)
+          Universe:  Households
+          Name:      A14007
+          Variables:
+             A14007_001:   Median Household Income (In 2019 Inflation Adjusted Dollars):
+             A14007_002:      White Alone Householder
+             A14007_003:      Black or African American Alone Householder
+             A14007_004:      American Indian and Alaska Native Alone  Householder
+             A14007_005:      Asian Alone
+             A14007_006:      Native Hawaiian and Other Pacific Islander Alone  Householder
+             A14007_007:      Some Other Race Alone Householder
+             A14007_008:      Two or More Races Householder
+             A14007_009:      Hispanic or Latino Householder
+             A14007_010:      White Alone Householder, Not Hispanic or Latino
+
+
+      13. Average Household Income (In <DollarYear> Inflation Adjusted Dollars)
+          Universe:  Households
+          Name:      A14008
+          Variables:
+             A14008_001:   Average Household Income (In 2019 Inflation Adjusted Dollars)
+
+
+      14. Per Capita Income (In <DollarYear> Inflation Adjusted Dollars)
+          Universe:  Total Population
+          Name:      A14024
+          Variables:
+             A14024_001:   Per Capita Income (In 2019 Inflation Adjusted Dollars)
+
+
+      15. Means of Transportation to Work for Workers 16 Years and Over
+          Universe:  Workers 16 Years and Over
+          Name:      A09005
+          Variables:
+             A09005_001:   Workers 16 Years and Over:
+             A09005_002:      Car, Truck, or Van
+             A09005_009:         Drove Alone
+             A09005_010:         Carpooled
+             A09005_003:      Public Transportation (Includes Taxicab)
+             A09005_004:      Motorcycle
+             A09005_005:      Bicycle
+             A09005_006:      Walked
+             A09005_007:      Other Means
+             A09005_008:      Worked At Home
+
+
+      16. Travel Time to Work for Workers 16 Years and Over
+          Universe:  Workers 16 Years and Over
+          Name:      A09001
+          Variables:
+             A09001_001:   Workers 16 Years and Over:
+             A09001_002:      Did Not Work At Home:
+             A09001_003:         Less than 10 Minutes
+             A09001_004:         10 to 19 Minutes
+             A09001_005:         20 to 29 Minutes
+             A09001_006:         30 to 39 Minutes
+             A09001_007:         40 to 59 Minutes
+             A09001_008:         60 to 89 Minutes
+             A09001_009:         90 or More Minutes
+             A09001_010:      Worked At Home
+
+
+
+
+
+Survey:           ACS 2019 (5-Year Estimates)
+Dataset:          American Community Survey Tables:  2015 -- 2019 (5-Year Estimates)
+Tables:
+
+      1. Means Of Transportation To Work By Occupation
+         Universe:  Universe:  Workers 16 years and over 
+         Name:      B08124
+         Variables:
+            B08124001:   Total:
+            B08124002:      Management, Business, Science, And Arts Occupations
+            B08124003:      Service Occupations
+            B08124004:      Sales And Office Occupations
+            B08124005:      Natural Resources, Construction, And Maintenance Occupations
+            B08124006:      Production, Transportation, And Material Moving Occupations
+            B08124007:      Military Specific Occupations
+            B08124008:      Car, Truck, Or Van - Drove Alone:
+            B08124009:         Management, Business, Science, And Arts Occupations
+            B08124010:         Service Occupations
+            B08124011:         Sales And Office Occupations
+            B08124012:         Natural Resources, Construction, And Maintenance Occupations
+            B08124013:         Production, Transportation, And Material Moving Occupations
+            B08124014:         Military Specific Occupations
+            B08124015:      Car, Truck, Or Van - Carpooled:
+            B08124016:         Management, Business, Science, And Arts Occupations
+            B08124017:         Service Occupations
+            B08124018:         Sales And Office Occupations
+            B08124019:         Natural Resources, Construction, And Maintenance Occupations
+            B08124020:         Production, Transportation, And Material Moving Occupations
+            B08124021:         Military Specific Occupations
+            B08124022:      Public Transportation (Excluding Taxicab):
+            B08124023:         Management, Business, Science, And Arts Occupations
+            B08124024:         Service Occupations
+            B08124025:         Sales And Office Occupations
+            B08124026:         Natural Resources, Construction, And Maintenance Occupations
+            B08124027:         Production, Transportation, And Material Moving Occupations
+            B08124028:         Military Specific Occupations
+            B08124029:      Walked:
+            B08124030:         Management, Business, Science, And Arts Occupations
+            B08124031:         Service Occupations
+            B08124032:         Sales And Office Occupations
+            B08124033:         Natural Resources, Construction, And Maintenance Occupations
+            B08124034:         Production, Transportation, And Material Moving Occupations
+            B08124035:         Military Specific Occupations
+            B08124036:      Taxicab, Motorcycle, Bicycle, Or Other Means:
+            B08124037:         Management, Business, Science, And Arts Occupations
+            B08124038:         Service Occupations
+            B08124039:         Sales And Office Occupations
+            B08124040:         Natural Resources, Construction, And Maintenance Occupations
+            B08124041:         Production, Transportation, And Material Moving Occupations
+            B08124042:         Military Specific Occupations
+            B08124043:      Worked From Home:
+            B08124044:         Management, Business, Science, And Arts Occupations
+            B08124045:         Service Occupations
+            B08124046:         Sales And Office Occupations
+            B08124047:         Natural Resources, Construction, And Maintenance Occupations
+            B08124048:         Production, Transportation, And Material Moving Occupations
+            B08124049:         Military Specific Occupations
+
+
+      2. Means Of Transportation To Work By Occupation
+         Universe:  Universe:  Workers 16 years and over 
+         Name:      B08124_se
+         Variables:
+            B08124001s:   Std. Error: Total:
+            B08124002s:      Std. Error: Management, Business, Science, And Arts Occupations
+            B08124003s:      Std. Error: Service Occupations
+            B08124004s:      Std. Error: Sales And Office Occupations
+            B08124005s:      Std. Error: Natural Resources, Construction, And Maintenance Occupations
+            B08124006s:      Std. Error: Production, Transportation, And Material Moving Occupations
+            B08124007s:      Std. Error: Military Specific Occupations
+            B08124008s:      Std. Error: Car, Truck, Or Van - Drove Alone:
+            B08124009s:         Std. Error: Management, Business, Science, And Arts Occupations
+            B08124010s:         Std. Error: Service Occupations
+            B08124011s:         Std. Error: Sales And Office Occupations
+            B08124012s:         Std. Error: Natural Resources, Construction, And Maintenance Occupations
+            B08124013s:         Std. Error: Production, Transportation, And Material Moving Occupations
+            B08124014s:         Std. Error: Military Specific Occupations
+            B08124015s:      Std. Error: Car, Truck, Or Van - Carpooled:
+            B08124016s:         Std. Error: Management, Business, Science, And Arts Occupations
+            B08124017s:         Std. Error: Service Occupations
+            B08124018s:         Std. Error: Sales And Office Occupations
+            B08124019s:         Std. Error: Natural Resources, Construction, And Maintenance Occupations
+            B08124020s:         Std. Error: Production, Transportation, And Material Moving Occupations
+            B08124021s:         Std. Error: Military Specific Occupations
+            B08124022s:      Std. Error: Public Transportation (Excluding Taxicab):
+            B08124023s:         Std. Error: Management, Business, Science, And Arts Occupations
+            B08124024s:         Std. Error: Service Occupations
+            B08124025s:         Std. Error: Sales And Office Occupations
+            B08124026s:         Std. Error: Natural Resources, Construction, And Maintenance Occupations
+            B08124027s:         Std. Error: Production, Transportation, And Material Moving Occupations
+            B08124028s:         Std. Error: Military Specific Occupations
+            B08124029s:      Std. Error: Walked:
+            B08124030s:         Std. Error: Management, Business, Science, And Arts Occupations
+            B08124031s:         Std. Error: Service Occupations
+            B08124032s:         Std. Error: Sales And Office Occupations
+            B08124033s:         Std. Error: Natural Resources, Construction, And Maintenance Occupations
+            B08124034s:         Std. Error: Production, Transportation, And Material Moving Occupations
+            B08124035s:         Std. Error: Military Specific Occupations
+            B08124036s:      Std. Error: Taxicab, Motorcycle, Bicycle, Or Other Means:
+            B08124037s:         Std. Error: Management, Business, Science, And Arts Occupations
+            B08124038s:         Std. Error: Service Occupations
+            B08124039s:         Std. Error: Sales And Office Occupations
+            B08124040s:         Std. Error: Natural Resources, Construction, And Maintenance Occupations
+            B08124041s:         Std. Error: Production, Transportation, And Material Moving Occupations
+            B08124042s:         Std. Error: Military Specific Occupations
+            B08124043s:      Std. Error: Worked From Home:
+            B08124044s:         Std. Error: Management, Business, Science, And Arts Occupations
+            B08124045s:         Std. Error: Service Occupations
+            B08124046s:         Std. Error: Sales And Office Occupations
+            B08124047s:         Std. Error: Natural Resources, Construction, And Maintenance Occupations
+            B08124048s:         Std. Error: Production, Transportation, And Material Moving Occupations
+            B08124049s:         Std. Error: Military Specific Occupations
+
+
+      3. Means Of Transportation To Work By Time Of Departure To Go To Work
+         Universe:  Universe:  Workers 16 years and over who did not work from home 
+         Name:      B08132
+         Variables:
+            B08132001:   Total:
+            B08132002:      12:00 A.M. To 4:59 A.M.
+            B08132003:      5:00 A.M. To 5:29 A.M.
+            B08132004:      5:30 A.M. To 5:59 A.M.
+            B08132005:      6:00 A.M. To 6:29 A.M.
+            B08132006:      6:30 A.M. To 6:59 A.M.
+            B08132007:      7:00 A.M. To 7:29 A.M.
+            B08132008:      7:30 A.M. To 7:59 A.M.
+            B08132009:      8:00 A.M. To 8:29 A.M.
+            B08132010:      8:30 A.M. To 8:59 A.M.
+            B08132011:      9:00 A.M. To 9:59 A.M.
+            B08132012:      10:00 A.M. To 10:59 A.M.
+            B08132013:      11:00 A.M. To 11:59 A.M.
+            B08132014:      12:00 P.M. To 3:59 P.M.
+            B08132015:      4:00 P.M. To 11:59 P.M.
+            B08132016:      Car, Truck, Or Van - Drove Alone:
+            B08132017:         12:00 A.M. To 4:59 A.M.
+            B08132018:         5:00 A.M. To 5:29 A.M.
+            B08132019:         5:30 A.M. To 5:59 A.M.
+            B08132020:         6:00 A.M. To 6:29 A.M.
+            B08132021:         6:30 A.M. To 6:59 A.M.
+            B08132022:         7:00 A.M. To 7:29 A.M.
+            B08132023:         7:30 A.M. To 7:59 A.M.
+            B08132024:         8:00 A.M. To 8:29 A.M.
+            B08132025:         8:30 A.M. To 8:59 A.M.
+            B08132026:         9:00 A.M. To 9:59 A.M.
+            B08132027:         10:00 A.M. To 10:59 A.M.
+            B08132028:         11:00 A.M. To 11:59 A.M.
+            B08132029:         12:00 P.M. To 3:59 P.M.
+            B08132030:         4:00 P.M. To 11:59 P.M.
+            B08132031:      Car, Truck, Or Van - Carpooled:
+            B08132032:         12:00 A.M. To 4:59 A.M.
+            B08132033:         5:00 A.M. To 5:29 A.M.
+            B08132034:         5:30 A.M. To 5:59 A.M.
+            B08132035:         6:00 A.M. To 6:29 A.M.
+            B08132036:         6:30 A.M. To 6:59 A.M.
+            B08132037:         7:00 A.M. To 7:29 A.M.
+            B08132038:         7:30 A.M. To 7:59 A.M.
+            B08132039:         8:00 A.M. To 8:29 A.M.
+            B08132040:         8:30 A.M. To 8:59 A.M.
+            B08132041:         9:00 A.M. To 9:59 A.M.
+            B08132042:         10:00 A.M. To 10:59 A.M.
+            B08132043:         11:00 A.M. To 11:59 A.M.
+            B08132044:         12:00 P.M. To 3:59 P.M.
+            B08132045:         4:00 P.M. To 11:59 P.M.
+            B08132046:      Public Transportation (Excluding Taxicab):
+            B08132047:         12:00 A.M. To 4:59 A.M.
+            B08132048:         5:00 A.M. To 5:29 A.M.
+            B08132049:         5:30 A.M. To 5:59 A.M.
+            B08132050:         6:00 A.M. To 6:29 A.M.
+            B08132051:         6:30 A.M. To 6:59 A.M.
+            B08132052:         7:00 A.M. To 7:29 A.M.
+            B08132053:         7:30 A.M. To 7:59 A.M.
+            B08132054:         8:00 A.M. To 8:29 A.M.
+            B08132055:         8:30 A.M. To 8:59 A.M.
+            B08132056:         9:00 A.M. To 9:59 A.M.
+            B08132057:         10:00 A.M. To 10:59 A.M.
+            B08132058:         11:00 A.M. To 11:59 A.M.
+            B08132059:         12:00 P.M. To 3:59 P.M.
+            B08132060:         4:00 P.M. To 11:59 P.M.
+            B08132061:      Walked:
+            B08132062:         12:00 A.M. To 4:59 A.M.
+            B08132063:         5:00 A.M. To 5:29 A.M.
+            B08132064:         5:30 A.M. To 5:59 A.M.
+            B08132065:         6:00 A.M. To 6:29 A.M.
+            B08132066:         6:30 A.M. To 6:59 A.M.
+            B08132067:         7:00 A.M. To 7:29 A.M.
+            B08132068:         7:30 A.M. To 7:59 A.M.
+            B08132069:         8:00 A.M. To 8:29 A.M.
+            B08132070:         8:30 A.M. To 8:59 A.M.
+            B08132071:         9:00 A.M. To 9:59 A.M.
+            B08132072:         10:00 A.M. To 10:59 A.M.
+            B08132073:         11:00 A.M. To 11:59 A.M.
+            B08132074:         12:00 P.M. To 3:59 P.M.
+            B08132075:         4:00 P.M. To 11:59 P.M.
+            B08132076:      Taxicab, Motorcycle, Bicycle, Or Other Means:
+            B08132077:         12:00 A.M. To 4:59 A.M.
+            B08132078:         5:00 A.M. To 5:29 A.M.
+            B08132079:         5:30 A.M. To 5:59 A.M.
+            B08132080:         6:00 A.M. To 6:29 A.M.
+            B08132081:         6:30 A.M. To 6:59 A.M.
+            B08132082:         7:00 A.M. To 7:29 A.M.
+            B08132083:         7:30 A.M. To 7:59 A.M.
+            B08132084:         8:00 A.M. To 8:29 A.M.
+            B08132085:         8:30 A.M. To 8:59 A.M.
+            B08132086:         9:00 A.M. To 9:59 A.M.
+            B08132087:         10:00 A.M. To 10:59 A.M.
+            B08132088:         11:00 A.M. To 11:59 A.M.
+            B08132089:         12:00 P.M. To 3:59 P.M.
+            B08132090:         4:00 P.M. To 11:59 P.M.
+
+
+      4. Means Of Transportation To Work By Time Of Departure To Go To Work
+         Universe:  Universe:  Workers 16 years and over who did not work from home 
+         Name:      B08132_se
+         Variables:
+            B08132001s:   Std. Error: Total:
+            B08132002s:      Std. Error: 12:00 A.M. To 4:59 A.M.
+            B08132003s:      Std. Error: 5:00 A.M. To 5:29 A.M.
+            B08132004s:      Std. Error: 5:30 A.M. To 5:59 A.M.
+            B08132005s:      Std. Error: 6:00 A.M. To 6:29 A.M.
+            B08132006s:      Std. Error: 6:30 A.M. To 6:59 A.M.
+            B08132007s:      Std. Error: 7:00 A.M. To 7:29 A.M.
+            B08132008s:      Std. Error: 7:30 A.M. To 7:59 A.M.
+            B08132009s:      Std. Error: 8:00 A.M. To 8:29 A.M.
+            B08132010s:      Std. Error: 8:30 A.M. To 8:59 A.M.
+            B08132011s:      Std. Error: 9:00 A.M. To 9:59 A.M.
+            B08132012s:      Std. Error: 10:00 A.M. To 10:59 A.M.
+            B08132013s:      Std. Error: 11:00 A.M. To 11:59 A.M.
+            B08132014s:      Std. Error: 12:00 P.M. To 3:59 P.M.
+            B08132015s:      Std. Error: 4:00 P.M. To 11:59 P.M.
+            B08132016s:      Std. Error: Car, Truck, Or Van - Drove Alone:
+            B08132017s:         Std. Error: 12:00 A.M. To 4:59 A.M.
+            B08132018s:         Std. Error: 5:00 A.M. To 5:29 A.M.
+            B08132019s:         Std. Error: 5:30 A.M. To 5:59 A.M.
+            B08132020s:         Std. Error: 6:00 A.M. To 6:29 A.M.
+            B08132021s:         Std. Error: 6:30 A.M. To 6:59 A.M.
+            B08132022s:         Std. Error: 7:00 A.M. To 7:29 A.M.
+            B08132023s:         Std. Error: 7:30 A.M. To 7:59 A.M.
+            B08132024s:         Std. Error: 8:00 A.M. To 8:29 A.M.
+            B08132025s:         Std. Error: 8:30 A.M. To 8:59 A.M.
+            B08132026s:         Std. Error: 9:00 A.M. To 9:59 A.M.
+            B08132027s:         Std. Error: 10:00 A.M. To 10:59 A.M.
+            B08132028s:         Std. Error: 11:00 A.M. To 11:59 A.M.
+            B08132029s:         Std. Error: 12:00 P.M. To 3:59 P.M.
+            B08132030s:         Std. Error: 4:00 P.M. To 11:59 P.M.
+            B08132031s:      Std. Error: Car, Truck, Or Van - Carpooled:
+            B08132032s:         Std. Error: 12:00 A.M. To 4:59 A.M.
+            B08132033s:         Std. Error: 5:00 A.M. To 5:29 A.M.
+            B08132034s:         Std. Error: 5:30 A.M. To 5:59 A.M.
+            B08132035s:         Std. Error: 6:00 A.M. To 6:29 A.M.
+            B08132036s:         Std. Error: 6:30 A.M. To 6:59 A.M.
+            B08132037s:         Std. Error: 7:00 A.M. To 7:29 A.M.
+            B08132038s:         Std. Error: 7:30 A.M. To 7:59 A.M.
+            B08132039s:         Std. Error: 8:00 A.M. To 8:29 A.M.
+            B08132040s:         Std. Error: 8:30 A.M. To 8:59 A.M.
+            B08132041s:         Std. Error: 9:00 A.M. To 9:59 A.M.
+            B08132042s:         Std. Error: 10:00 A.M. To 10:59 A.M.
+            B08132043s:         Std. Error: 11:00 A.M. To 11:59 A.M.
+            B08132044s:         Std. Error: 12:00 P.M. To 3:59 P.M.
+            B08132045s:         Std. Error: 4:00 P.M. To 11:59 P.M.
+            B08132046s:      Std. Error: Public Transportation (Excluding Taxicab):
+            B08132047s:         Std. Error: 12:00 A.M. To 4:59 A.M.
+            B08132048s:         Std. Error: 5:00 A.M. To 5:29 A.M.
+            B08132049s:         Std. Error: 5:30 A.M. To 5:59 A.M.
+            B08132050s:         Std. Error: 6:00 A.M. To 6:29 A.M.
+            B08132051s:         Std. Error: 6:30 A.M. To 6:59 A.M.
+            B08132052s:         Std. Error: 7:00 A.M. To 7:29 A.M.
+            B08132053s:         Std. Error: 7:30 A.M. To 7:59 A.M.
+            B08132054s:         Std. Error: 8:00 A.M. To 8:29 A.M.
+            B08132055s:         Std. Error: 8:30 A.M. To 8:59 A.M.
+            B08132056s:         Std. Error: 9:00 A.M. To 9:59 A.M.
+            B08132057s:         Std. Error: 10:00 A.M. To 10:59 A.M.
+            B08132058s:         Std. Error: 11:00 A.M. To 11:59 A.M.
+            B08132059s:         Std. Error: 12:00 P.M. To 3:59 P.M.
+            B08132060s:         Std. Error: 4:00 P.M. To 11:59 P.M.
+            B08132061s:      Std. Error: Walked:
+            B08132062s:         Std. Error: 12:00 A.M. To 4:59 A.M.
+            B08132063s:         Std. Error: 5:00 A.M. To 5:29 A.M.
+            B08132064s:         Std. Error: 5:30 A.M. To 5:59 A.M.
+            B08132065s:         Std. Error: 6:00 A.M. To 6:29 A.M.
+            B08132066s:         Std. Error: 6:30 A.M. To 6:59 A.M.
+            B08132067s:         Std. Error: 7:00 A.M. To 7:29 A.M.
+            B08132068s:         Std. Error: 7:30 A.M. To 7:59 A.M.
+            B08132069s:         Std. Error: 8:00 A.M. To 8:29 A.M.
+            B08132070s:         Std. Error: 8:30 A.M. To 8:59 A.M.
+            B08132071s:         Std. Error: 9:00 A.M. To 9:59 A.M.
+            B08132072s:         Std. Error: 10:00 A.M. To 10:59 A.M.
+            B08132073s:         Std. Error: 11:00 A.M. To 11:59 A.M.
+            B08132074s:         Std. Error: 12:00 P.M. To 3:59 P.M.
+            B08132075s:         Std. Error: 4:00 P.M. To 11:59 P.M.
+            B08132076s:      Std. Error: Taxicab, Motorcycle, Bicycle, Or Other Means:
+            B08132077s:         Std. Error: 12:00 A.M. To 4:59 A.M.
+            B08132078s:         Std. Error: 5:00 A.M. To 5:29 A.M.
+            B08132079s:         Std. Error: 5:30 A.M. To 5:59 A.M.
+            B08132080s:         Std. Error: 6:00 A.M. To 6:29 A.M.
+            B08132081s:         Std. Error: 6:30 A.M. To 6:59 A.M.
+            B08132082s:         Std. Error: 7:00 A.M. To 7:29 A.M.
+            B08132083s:         Std. Error: 7:30 A.M. To 7:59 A.M.
+            B08132084s:         Std. Error: 8:00 A.M. To 8:29 A.M.
+            B08132085s:         Std. Error: 8:30 A.M. To 8:59 A.M.
+            B08132086s:         Std. Error: 9:00 A.M. To 9:59 A.M.
+            B08132087s:         Std. Error: 10:00 A.M. To 10:59 A.M.
+            B08132088s:         Std. Error: 11:00 A.M. To 11:59 A.M.
+            B08132089s:         Std. Error: 12:00 P.M. To 3:59 P.M.
+            B08132090s:         Std. Error: 4:00 P.M. To 11:59 P.M.
+
+
+      5. Means Of Transportation To Work By Travel Time To Work
+         Universe:  Universe:  Workers 16 years and over who did not work from home 
+         Name:      B08134
+         Variables:
+            B08134001:   Total:
+            B08134002:      Less Than 10 Minutes
+            B08134003:      10 To 14 Minutes
+            B08134004:      15 To 19 Minutes
+            B08134005:      20 To 24 Minutes
+            B08134006:      25 To 29 Minutes
+            B08134007:      30 To 34 Minutes
+            B08134008:      35 To 44 Minutes
+            B08134009:      45 To 59 Minutes
+            B08134010:      60 Or More Minutes
+            B08134011:      Car, Truck, Or Van:
+            B08134012:         Less Than 10 Minutes
+            B08134013:         10 To 14 Minutes
+            B08134014:         15 To 19 Minutes
+            B08134015:         20 To 24 Minutes
+            B08134016:         25 To 29 Minutes
+            B08134017:         30 To 34 Minutes
+            B08134018:         35 To 44 Minutes
+            B08134019:         45 To 59 Minutes
+            B08134020:         60 Or More Minutes
+            B08134021:         Drove Alone:
+            B08134022:            Less Than 10 Minutes
+            B08134023:            10 To 14 Minutes
+            B08134024:            15 To 19 Minutes
+            B08134025:            20 To 24 Minutes
+            B08134026:            25 To 29 Minutes
+            B08134027:            30 To 34 Minutes
+            B08134028:            35 To 44 Minutes
+            B08134029:            45 To 59 Minutes
+            B08134030:            60 Or More Minutes
+            B08134031:         Carpooled:
+            B08134032:            Less Than 10 Minutes
+            B08134033:            10 To 14 Minutes
+            B08134034:            15 To 19 Minutes
+            B08134035:            20 To 24 Minutes
+            B08134036:            25 To 29 Minutes
+            B08134037:            30 To 34 Minutes
+            B08134038:            35 To 44 Minutes
+            B08134039:            45 To 59 Minutes
+            B08134040:            60 Or More Minutes
+            B08134041:            In 2-Person Carpool:
+            B08134042:               Less Than 10 Minutes
+            B08134043:               10 To 14 Minutes
+            B08134044:               15 To 19 Minutes
+            B08134045:               20 To 24 Minutes
+            B08134046:               25 To 29 Minutes
+            B08134047:               30 To 34 Minutes
+            B08134048:               35 To 44 Minutes
+            B08134049:               45 To 59 Minutes
+            B08134050:               60 Or More Minutes
+            B08134051:            In 3-Or-More-Person Carpool:
+            B08134052:               Less Than 10 Minutes
+            B08134053:               10 To 14 Minutes
+            B08134054:               15 To 19 Minutes
+            B08134055:               20 To 24 Minutes
+            B08134056:               25 To 29 Minutes
+            B08134057:               30 To 34 Minutes
+            B08134058:               35 To 44 Minutes
+            B08134059:               45 To 59 Minutes
+            B08134060:               60 Or More Minutes
+            B08134061:      Public Transportation (Excluding Taxicab):
+            B08134062:         Less Than 10 Minutes
+            B08134063:         10 To 14 Minutes
+            B08134064:         15 To 19 Minutes
+            B08134065:         20 To 24 Minutes
+            B08134066:         25 To 29 Minutes
+            B08134067:         30 To 34 Minutes
+            B08134068:         35 To 44 Minutes
+            B08134069:         45 To 59 Minutes
+            B08134070:         60 Or More Minutes
+            B08134071:         Bus:
+            B08134072:            Less Than 10 Minutes
+            B08134073:            10 To 14 Minutes
+            B08134074:            15 To 19 Minutes
+            B08134075:            20 To 24 Minutes
+            B08134076:            25 To 29 Minutes
+            B08134077:            30 To 34 Minutes
+            B08134078:            35 To 44 Minutes
+            B08134079:            45 To 59 Minutes
+            B08134080:            60 Or More Minutes
+            B08134081:         Subway Or Elevated Rail, Light Rail, Streetcar, Or Trolley (Carro Público In Puerto Rico):
+            B08134082:            Less Than 10 Minutes
+            B08134083:            10 To 14 Minutes
+            B08134084:            15 To 19 Minutes
+            B08134085:            20 To 24 Minutes
+            B08134086:            25 To 29 Minutes
+            B08134087:            30 To 34 Minutes
+            B08134088:            35 To 44 Minutes
+            B08134089:            45 To 59 Minutes
+            B08134090:            60 Or More Minutes
+            B08134091:         Long-Distance Train Or Commuter Rail Or Ferryboat:
+            B08134092:            Less Than 10 Minutes
+            B08134093:            10 To 14 Minutes
+            B08134094:            15 To 19 Minutes
+            B08134095:            20 To 24 Minutes
+            B08134096:            25 To 29 Minutes
+            B08134097:            30 To 34 Minutes
+            B08134098:            35 To 44 Minutes
+            B08134099:            45 To 59 Minutes
+            B08134100:            60 Or More Minutes
+            B08134101:      Walked:
+            B08134102:         Less Than 10 Minutes
+            B08134103:         10 To 14 Minutes
+            B08134104:         15 To 19 Minutes
+            B08134105:         20 To 24 Minutes
+            B08134106:         25 To 29 Minutes
+            B08134107:         30 To 34 Minutes
+            B08134108:         35 To 44 Minutes
+            B08134109:         45 To 59 Minutes
+            B08134110:         60 Or More Minutes
+            B08134111:      Taxicab, Motorcycle, Bicycle, Or Other Means:
+            B08134112:         Less Than 10 Minutes
+            B08134113:         10 To 14 Minutes
+            B08134114:         15 To 19 Minutes
+            B08134115:         20 To 24 Minutes
+            B08134116:         25 To 29 Minutes
+            B08134117:         30 To 34 Minutes
+            B08134118:         35 To 44 Minutes
+            B08134119:         45 To 59 Minutes
+            B08134120:         60 Or More Minutes
+
+
+      6. Means Of Transportation To Work By Travel Time To Work
+         Universe:  Universe:  Workers 16 years and over who did not work from home 
+         Name:      B08134_se
+         Variables:
+            B08134001s:   Std. Error: Total:
+            B08134002s:      Std. Error: Less Than 10 Minutes
+            B08134003s:      Std. Error: 10 To 14 Minutes
+            B08134004s:      Std. Error: 15 To 19 Minutes
+            B08134005s:      Std. Error: 20 To 24 Minutes
+            B08134006s:      Std. Error: 25 To 29 Minutes
+            B08134007s:      Std. Error: 30 To 34 Minutes
+            B08134008s:      Std. Error: 35 To 44 Minutes
+            B08134009s:      Std. Error: 45 To 59 Minutes
+            B08134010s:      Std. Error: 60 Or More Minutes
+            B08134011s:      Std. Error: Car, Truck, Or Van:
+            B08134012s:         Std. Error: Less Than 10 Minutes
+            B08134013s:         Std. Error: 10 To 14 Minutes
+            B08134014s:         Std. Error: 15 To 19 Minutes
+            B08134015s:         Std. Error: 20 To 24 Minutes
+            B08134016s:         Std. Error: 25 To 29 Minutes
+            B08134017s:         Std. Error: 30 To 34 Minutes
+            B08134018s:         Std. Error: 35 To 44 Minutes
+            B08134019s:         Std. Error: 45 To 59 Minutes
+            B08134020s:         Std. Error: 60 Or More Minutes
+            B08134021s:         Std. Error: Drove Alone:
+            B08134022s:            Std. Error: Less Than 10 Minutes
+            B08134023s:            Std. Error: 10 To 14 Minutes
+            B08134024s:            Std. Error: 15 To 19 Minutes
+            B08134025s:            Std. Error: 20 To 24 Minutes
+            B08134026s:            Std. Error: 25 To 29 Minutes
+            B08134027s:            Std. Error: 30 To 34 Minutes
+            B08134028s:            Std. Error: 35 To 44 Minutes
+            B08134029s:            Std. Error: 45 To 59 Minutes
+            B08134030s:            Std. Error: 60 Or More Minutes
+            B08134031s:         Std. Error: Carpooled:
+            B08134032s:            Std. Error: Less Than 10 Minutes
+            B08134033s:            Std. Error: 10 To 14 Minutes
+            B08134034s:            Std. Error: 15 To 19 Minutes
+            B08134035s:            Std. Error: 20 To 24 Minutes
+            B08134036s:            Std. Error: 25 To 29 Minutes
+            B08134037s:            Std. Error: 30 To 34 Minutes
+            B08134038s:            Std. Error: 35 To 44 Minutes
+            B08134039s:            Std. Error: 45 To 59 Minutes
+            B08134040s:            Std. Error: 60 Or More Minutes
+            B08134041s:            Std. Error: In 2-Person Carpool:
+            B08134042s:               Std. Error: Less Than 10 Minutes
+            B08134043s:               Std. Error: 10 To 14 Minutes
+            B08134044s:               Std. Error: 15 To 19 Minutes
+            B08134045s:               Std. Error: 20 To 24 Minutes
+            B08134046s:               Std. Error: 25 To 29 Minutes
+            B08134047s:               Std. Error: 30 To 34 Minutes
+            B08134048s:               Std. Error: 35 To 44 Minutes
+            B08134049s:               Std. Error: 45 To 59 Minutes
+            B08134050s:               Std. Error: 60 Or More Minutes
+            B08134051s:            Std. Error: In 3-Or-More-Person Carpool:
+            B08134052s:               Std. Error: Less Than 10 Minutes
+            B08134053s:               Std. Error: 10 To 14 Minutes
+            B08134054s:               Std. Error: 15 To 19 Minutes
+            B08134055s:               Std. Error: 20 To 24 Minutes
+            B08134056s:               Std. Error: 25 To 29 Minutes
+            B08134057s:               Std. Error: 30 To 34 Minutes
+            B08134058s:               Std. Error: 35 To 44 Minutes
+            B08134059s:               Std. Error: 45 To 59 Minutes
+            B08134060s:               Std. Error: 60 Or More Minutes
+            B08134061s:      Std. Error: Public Transportation (Excluding Taxicab):
+            B08134062s:         Std. Error: Less Than 10 Minutes
+            B08134063s:         Std. Error: 10 To 14 Minutes
+            B08134064s:         Std. Error: 15 To 19 Minutes
+            B08134065s:         Std. Error: 20 To 24 Minutes
+            B08134066s:         Std. Error: 25 To 29 Minutes
+            B08134067s:         Std. Error: 30 To 34 Minutes
+            B08134068s:         Std. Error: 35 To 44 Minutes
+            B08134069s:         Std. Error: 45 To 59 Minutes
+            B08134070s:         Std. Error: 60 Or More Minutes
+            B08134071s:         Std. Error: Bus:
+            B08134072s:            Std. Error: Less Than 10 Minutes
+            B08134073s:            Std. Error: 10 To 14 Minutes
+            B08134074s:            Std. Error: 15 To 19 Minutes
+            B08134075s:            Std. Error: 20 To 24 Minutes
+            B08134076s:            Std. Error: 25 To 29 Minutes
+            B08134077s:            Std. Error: 30 To 34 Minutes
+            B08134078s:            Std. Error: 35 To 44 Minutes
+            B08134079s:            Std. Error: 45 To 59 Minutes
+            B08134080s:            Std. Error: 60 Or More Minutes
+            B08134081s:         Std. Error: Subway Or Elevated Rail, Light Rail, Streetcar, Or Trolley (Carro Público In Puerto Rico):
+            B08134082s:            Std. Error: Less Than 10 Minutes
+            B08134083s:            Std. Error: 10 To 14 Minutes
+            B08134084s:            Std. Error: 15 To 19 Minutes
+            B08134085s:            Std. Error: 20 To 24 Minutes
+            B08134086s:            Std. Error: 25 To 29 Minutes
+            B08134087s:            Std. Error: 30 To 34 Minutes
+            B08134088s:            Std. Error: 35 To 44 Minutes
+            B08134089s:            Std. Error: 45 To 59 Minutes
+            B08134090s:            Std. Error: 60 Or More Minutes
+            B08134091s:         Std. Error: Long-Distance Train Or Commuter Rail Or Ferryboat:
+            B08134092s:            Std. Error: Less Than 10 Minutes
+            B08134093s:            Std. Error: 10 To 14 Minutes
+            B08134094s:            Std. Error: 15 To 19 Minutes
+            B08134095s:            Std. Error: 20 To 24 Minutes
+            B08134096s:            Std. Error: 25 To 29 Minutes
+            B08134097s:            Std. Error: 30 To 34 Minutes
+            B08134098s:            Std. Error: 35 To 44 Minutes
+            B08134099s:            Std. Error: 45 To 59 Minutes
+            B08134100s:            Std. Error: 60 Or More Minutes
+            B08134101s:      Std. Error: Walked:
+            B08134102s:         Std. Error: Less Than 10 Minutes
+            B08134103s:         Std. Error: 10 To 14 Minutes
+            B08134104s:         Std. Error: 15 To 19 Minutes
+            B08134105s:         Std. Error: 20 To 24 Minutes
+            B08134106s:         Std. Error: 25 To 29 Minutes
+            B08134107s:         Std. Error: 30 To 34 Minutes
+            B08134108s:         Std. Error: 35 To 44 Minutes
+            B08134109s:         Std. Error: 45 To 59 Minutes
+            B08134110s:         Std. Error: 60 Or More Minutes
+            B08134111s:      Std. Error: Taxicab, Motorcycle, Bicycle, Or Other Means:
+            B08134112s:         Std. Error: Less Than 10 Minutes
+            B08134113s:         Std. Error: 10 To 14 Minutes
+            B08134114s:         Std. Error: 15 To 19 Minutes
+            B08134115s:         Std. Error: 20 To 24 Minutes
+            B08134116s:         Std. Error: 25 To 29 Minutes
+            B08134117s:         Std. Error: 30 To 34 Minutes
+            B08134118s:         Std. Error: 35 To 44 Minutes
+            B08134119s:         Std. Error: 45 To 59 Minutes
+            B08134120s:         Std. Error: 60 Or More Minutes
+
+
+      7. Means Of Transportation To Work By Vehicles Available
+         Universe:  Universe:  Workers 16 years and over in households 
+         Name:      B08141
+         Variables:
+            B08141001:   Total:
+            B08141002:      No Vehicle Available
+            B08141003:      1 Vehicle Available
+            B08141004:      2 Vehicles Available
+            B08141005:      3 Or More Vehicles Available
+            B08141006:      Car, Truck, Or Van - Drove Alone:
+            B08141007:         No Vehicle Available
+            B08141008:         1 Vehicle Available
+            B08141009:         2 Vehicles Available
+            B08141010:         3 Or More Vehicles Available
+            B08141011:      Car, Truck, Or Van - Carpooled:
+            B08141012:         No Vehicle Available
+            B08141013:         1 Vehicle Available
+            B08141014:         2 Vehicles Available
+            B08141015:         3 Or More Vehicles Available
+            B08141016:      Public Transportation (Excluding Taxicab):
+            B08141017:         No Vehicle Available
+            B08141018:         1 Vehicle Available
+            B08141019:         2 Vehicles Available
+            B08141020:         3 Or More Vehicles Available
+            B08141021:      Walked:
+            B08141022:         No Vehicle Available
+            B08141023:         1 Vehicle Available
+            B08141024:         2 Vehicles Available
+            B08141025:         3 Or More Vehicles Available
+            B08141026:      Taxicab, Motorcycle, Bicycle, Or Other Means:
+            B08141027:         No Vehicle Available
+            B08141028:         1 Vehicle Available
+            B08141029:         2 Vehicles Available
+            B08141030:         3 Or More Vehicles Available
+            B08141031:      Worked From Home:
+            B08141032:         No Vehicle Available
+            B08141033:         1 Vehicle Available
+            B08141034:         2 Vehicles Available
+            B08141035:         3 Or More Vehicles Available
+
+
+      8. Means Of Transportation To Work By Vehicles Available
+         Universe:  Universe:  Workers 16 years and over in households 
+         Name:      B08141_se
+         Variables:
+            B08141001s:   Std. Error: Total:
+            B08141002s:      Std. Error: No Vehicle Available
+            B08141003s:      Std. Error: 1 Vehicle Available
+            B08141004s:      Std. Error: 2 Vehicles Available
+            B08141005s:      Std. Error: 3 Or More Vehicles Available
+            B08141006s:      Std. Error: Car, Truck, Or Van - Drove Alone:
+            B08141007s:         Std. Error: No Vehicle Available
+            B08141008s:         Std. Error: 1 Vehicle Available
+            B08141009s:         Std. Error: 2 Vehicles Available
+            B08141010s:         Std. Error: 3 Or More Vehicles Available
+            B08141011s:      Std. Error: Car, Truck, Or Van - Carpooled:
+            B08141012s:         Std. Error: No Vehicle Available
+            B08141013s:         Std. Error: 1 Vehicle Available
+            B08141014s:         Std. Error: 2 Vehicles Available
+            B08141015s:         Std. Error: 3 Or More Vehicles Available
+            B08141016s:      Std. Error: Public Transportation (Excluding Taxicab):
+            B08141017s:         Std. Error: No Vehicle Available
+            B08141018s:         Std. Error: 1 Vehicle Available
+            B08141019s:         Std. Error: 2 Vehicles Available
+            B08141020s:         Std. Error: 3 Or More Vehicles Available
+            B08141021s:      Std. Error: Walked:
+            B08141022s:         Std. Error: No Vehicle Available
+            B08141023s:         Std. Error: 1 Vehicle Available
+            B08141024s:         Std. Error: 2 Vehicles Available
+            B08141025s:         Std. Error: 3 Or More Vehicles Available
+            B08141026s:      Std. Error: Taxicab, Motorcycle, Bicycle, Or Other Means:
+            B08141027s:         Std. Error: No Vehicle Available
+            B08141028s:         Std. Error: 1 Vehicle Available
+            B08141029s:         Std. Error: 2 Vehicles Available
+            B08141030s:         Std. Error: 3 Or More Vehicles Available
+            B08141031s:      Std. Error: Worked From Home:
+            B08141032s:         Std. Error: No Vehicle Available
+            B08141033s:         Std. Error: 1 Vehicle Available
+            B08141034s:         Std. Error: 2 Vehicles Available
+            B08141035s:         Std. Error: 3 Or More Vehicles Available
+
+
+      9. Means Of Transportation To Work
+         Universe:  Universe:  Workers 16 years and over 
+         Name:      B08301
+         Variables:
+            B08301001:   Total:
+            B08301002:      Car, Truck, Or Van:
+            B08301003:         Drove Alone
+            B08301004:         Carpooled:
+            B08301005:            In 2-Person Carpool
+            B08301006:            In 3-Person Carpool
+            B08301007:            In 4-Person Carpool
+            B08301008:            In 5- Or 6-Person Carpool
+            B08301009:            In 7-Or-More-Person Carpool
+            B08301010:      Public Transportation (Excluding Taxicab):
+            B08301011:         Bus
+            B08301012:         Subway Or Elevated Rail
+            B08301013:         Long-Distance Train Or Commuter Rail
+            B08301014:         Light Rail, Streetcar Or Trolley (Carro Público In Puerto Rico)
+            B08301015:         Ferryboat
+            B08301016:      Taxicab
+            B08301017:      Motorcycle
+            B08301018:      Bicycle
+            B08301019:      Walked
+            B08301020:      Other Means
+            B08301021:      Worked From Home
+
+
+      10. Means Of Transportation To Work
+          Universe:  Universe:  Workers 16 years and over 
+          Name:      B08301_se
+          Variables:
+             B08301001s:   Std. Error: Total:
+             B08301002s:      Std. Error: Car, Truck, Or Van:
+             B08301003s:         Std. Error: Drove Alone
+             B08301004s:         Std. Error: Carpooled:
+             B08301005s:            Std. Error: In 2-Person Carpool
+             B08301006s:            Std. Error: In 3-Person Carpool
+             B08301007s:            Std. Error: In 4-Person Carpool
+             B08301008s:            Std. Error: In 5- Or 6-Person Carpool
+             B08301009s:            Std. Error: In 7-Or-More-Person Carpool
+             B08301010s:      Std. Error: Public Transportation (Excluding Taxicab):
+             B08301011s:         Std. Error: Bus
+             B08301012s:         Std. Error: Subway Or Elevated Rail
+             B08301013s:         Std. Error: Long-Distance Train Or Commuter Rail
+             B08301014s:         Std. Error: Light Rail, Streetcar Or Trolley (Carro Público In Puerto Rico)
+             B08301015s:         Std. Error: Ferryboat
+             B08301016s:      Std. Error: Taxicab
+             B08301017s:      Std. Error: Motorcycle
+             B08301018s:      Std. Error: Bicycle
+             B08301019s:      Std. Error: Walked
+             B08301020s:      Std. Error: Other Means
+             B08301021s:      Std. Error: Worked From Home
+
+
+
+
+
+ 
+ 
+ 
+--------------------------------------------------------------------------------
+Data Dictionary
+--------------------------------------------------------------------------------
+ 
+Variables 
+      FIPS:           FIPS
+      GEOID:          Geographic Identifier
+      NAME:           Area Name
+      QName:          Qualifying Name
+      STUSAB:         State Postal Abbreviation
+      SUMLEV:         Summary Level
+      GEOCOMP:        Geographic Component
+      FILEID:         File identification
+      LOGRECNO:       Logical Record Number
+      US:             US
+      REGION:         Census Region
+      DIVISION:       Census Division
+      STATECE:        State (Census Code)
+      STATE:          State (FIPS Code)
+      COUNTY:         County of current residence
+      COUSUB:         County Subdivision (FIPS)
+      PLACE:          Place (FIPS Code)
+      PLACESE:        Place (State FIPS + Place FIPS)
+      TRACT:          Census Tract
+      BLKGRP:         Block Group
+      CONCIT:         Consolidated City
+      AIANHH:         American Indian Area/Alaska Native Area/Hawaiian Home Land (Census)
+      AIANHHFP:       American Indian Area/Alaska Native Area/Hawaiian Home Land (FIPS)
+      AIHHTLI:        American Indian Trust Land/Hawaiian Home Land Indicator
+      AITSCE:         American Indian Tribal Subdivision (Census)
+      AITS:           American Indian Tribal Subdivision (FIPS)
+      ANRC:           Alaska Native Regional Corporation (FIPS)
+      CBSA:           Metropolitan and Micropolitan Statistical Area
+      CSA:            Combined Statistical Area
+      METDIV:         Metropolitan Division
+      MACC:           Metropolitan Area Central City
+      MEMI:           Metropolitan/Micropolitan Indicator Flag
+      NECTA:          New England City and Town Area
+      CNECTA:         New England City and Town Area
+      NECTADIV:       New England City and Town Area Division
+      UA:             Urban Area
+      UACP:           Urban Area Central Place
+      CDCURR:         Current Congressional District ***
+      SLDU:           State Legislative District Upper
+      SLDL:           State Legislative District Lower
+      VTD:            Voting District
+      ZCTA3:          ZIP Code Tabulation Area (3-digit)
+      ZCTA5:          5-digit ZIP Code Tabulation Area
+      SUBMCD:         Subminor Civil Division (FIPS)
+      SDELM:          State-School District (Elementary)
+      SDSEC:          State-School District (Secondary)
+      SDUNI:          State-School District (Unified)
+      UR:             Urban/Rural
+      PCI:            Principal City Indicator
+      TAZ:            Traffic Analysis Zone
+      UGA:            Urban Growth Area
+      BTTR:           Tribal Tract
+      BTBG:           Tribal Block Group
+      PUMA5:          Public Use Microdata Area - 5% File
+      PUMA1:          Public Use Microdata Area - 1% File
+      A00001_001:     Total Population
+      A00002_001:     Total Population
+      A00002_002:     Population Density (Per Sq. Mile)
+      A00002_003:     Area (Land)
+      A03001_001:     Total Population:
+      A03001_002:     Total Population: White Alone
+      A03001_003:     Total Population: Black or African American Alone
+      A03001_004:     Total Population: American Indian and Alaska Native Alone
+      A03001_005:     Total Population: Asian Alone
+      A03001_006:     Total Population: Native Hawaiian and Other Pacific Islander Alone
+      A03001_007:     Total Population: Some Other Race Alone
+      A03001_008:     Total Population: Two or More Races
+      A04001_001:     Total Population
+      A04001_002:     Total Population: Not Hispanic or Latino
+      A04001_003:     Total Population: Not Hispanic or Latino: White Alone
+      A04001_004:     Total Population: Not Hispanic or Latino: Black or African American Alone
+      A04001_005:     Total Population: Not Hispanic or Latino: American Indian and Alaska Native Alone
+      A04001_006:     Total Population: Not Hispanic or Latino: Asian Alone
+      A04001_007:     Total Population: Not Hispanic or Latino: Native Hawaiian and Other Pacific Islander Alone
+      A04001_008:     Total Population: Not Hispanic or Latino: Some Other Race Alone
+      A04001_009:     Total Population: Not Hispanic or Latino: Two or More Races
+      A04001_010:     Total Population: Hispanic or Latino
+      A04001_011:     Total Population: Hispanic or Latino: White Alone
+      A04001_012:     Total Population: Hispanic or Latino: Black or African American Alone
+      A04001_013:     Total Population: Hispanic or Latino: American Indian and Alaska Native Alone
+      A04001_014:     Total Population: Hispanic or Latino: Asian Alone
+      A04001_015:     Total Population: Hispanic or Latino: Native Hawaiian and Other Pacific Islander Alone
+      A04001_016:     Total Population: Hispanic or Latino: Some Other Race Alone
+      A04001_017:     Total Population: Hispanic or Latino: Two or More Races
+      A12001_001:     Population 25 Years and Over:
+      A12001_002:     Population 25 Years and Over: Less than High School
+      A12001_003:     Population 25 Years and Over: High School Graduate (Includes Equivalency)
+      A12001_004:     Population 25 Years and Over: Some College
+      A12001_005:     Population 25 Years and Over: Bachelor's Degree
+      A12001_006:     Population 25 Years and Over: Master's Degree
+      A12001_007:     Population 25 Years and Over: Professional School Degree
+      A12001_008:     Population 25 Years and Over: Doctorate Degree
+      A12002_001:     Population 25 Years and Over:
+      A12002_002:     Population 25 Years and Over: Less than High School
+      A12002_003:     Population 25 Years and Over: High School Graduate or More (Includes Equivalency)
+      A12002_004:     Population 25 Years and Over: Some College or More
+      A12002_005:     Population 25 Years and Over: Bachelor's Degree or More
+      A12002_006:     Population 25 Years and Over: Master's Degree or More
+      A12002_007:     Population 25 Years and Over: Professional School Degree or More
+      A12002_008:     Population 25 Years and Over: Doctorate Degree
+      A17005_001:     Civilian Population in Labor Force 16 Years and Over:
+      A17005_002:     Civilian Population in Labor Force 16 Years and Over: Employed
+      A17005_003:     Civilian Population in Labor Force 16 Years and Over: Unemployed
+      A17004_001:     Total Employed Civilian Population 16 Years and Over
+      A17004_002:     Employed Civilian Population 16 Years and Over: Agriculture, Forestry, Fishing and Hunting, and Mining
+      A17004_003:     Employed Civilian Population 16 Years and Over: Construction
+      A17004_004:     Employed Civilian Population 16 Years and Over: Manufacturing
+      A17004_005:     Employed Civilian Population 16 Years and Over: Wholesale Trade
+      A17004_006:     Employed Civilian Population 16 Years and Over: Retail Trade
+      A17004_007:     Employed Civilian Population 16 Years and Over: Transportation and Warehousing, and Utilities
+      A17004_008:     Employed Civilian Population 16 Years and Over: Information
+      A17004_009:     Employed Civilian Population 16 Years and Over: Finance and Insurance, and Real Estate and Rental  and Leasing
+      A17004_010:     Employed Civilian Population 16 Years and Over: Professional, Scientific, and Management, and  Administrative and Waste Management Services
+      A17004_011:     Employed Civilian Population 16 Years and Over: Educational Services, and Health Care and Social  Assistance
+      A17004_012:     Employed Civilian Population 16 Years and Over: Arts, Entertainment, and Recreation, and  Accommodation and Food Services
+      A17004_013:     Employed Civilian Population 16 Years and Over: Other Services, Except Public Administration
+      A17004_014:     Employed Civilian Population 16 Years and Over: Public Administration
+      B17008_001:     Employed Civilian Population 16 Years and Over:
+      B17008_002:     Employed Civilian Population 16 Years and Over: Management, Business, and Financial Operations  Occupations
+      B17008_003:     Employed Civilian Population 16 Years and Over: Professional and Related Occupations
+      B17008_004:     Employed Civilian Population 16 Years and Over: Healthcare Support Occupations
+      B17008_005:     Employed Civilian Population 16 Years and Over: Protective Service Occupations
+      B17008_006:     Employed Civilian Population 16 Years and Over: Food Preparation and Serving Related Occupations
+      B17008_007:     Employed Civilian Population 16 Years and Over: Building and Grounds Cleaning and Maintenance  Occupations
+      B17008_008:     Employed Civilian Population 16 Years and Over: Personal Care and Service Occupations
+      B17008_009:     Employed Civilian Population 16 Years and Over: Sales and Related Occupations
+      B17008_010:     Employed Civilian Population 16 Years and Over: Office and Administrative Support Occupations
+      B17008_011:     Employed Civilian Population 16 Years and Over: Farming, Fishing, and Forestry Occupations
+      B17008_012:     Employed Civilian Population 16 Years and Over: Construction, Extraction, and Maintenance  Occupations
+      B17008_013:     Employed Civilian Population 16 Years and Over: Production Occupations
+      B17008_014:     Employed Civilian Population 16 Years and Over: Transportation and Material Moving Occupations
+      A14001_001:     Households:
+      A14001_002:     Households: Less than $10,000
+      A14001_003:     Households: $10,000 to $14,999
+      A14001_004:     Households: $15,000 to $19,999
+      A14001_005:     Households: $20,000 to $24,999
+      A14001_006:     Households: $25,000 to $29,999
+      A14001_007:     Households: $30,000 to $34,999
+      A14001_008:     Households: $35,000 to $39,999
+      A14001_009:     Households: $40,000 to $44,999
+      A14001_010:     Households: $45,000 to $49,999
+      A14001_011:     Households: $50,000 to $59,999
+      A14001_012:     Households: $60,000 to $74,999
+      A14001_013:     Households: $75,000 to $99,999
+      A14001_014:     Households: $100,000 to $124,999
+      A14001_015:     Households: $125,000 to $149,999
+      A14001_016:     Households: $150,000 to $199,999
+      A14001_017:     Households: $200,000 or More
+      A14006_001:     Median Household Income (In 2019 Inflation Adjusted Dollars)
+      A14007_001:     Median Household Income (In 2019 Inflation Adjusted Dollars):
+      A14007_002:     Median Household Income (In 2019 Inflation Adjusted Dollars): White Alone Householder
+      A14007_003:     Median Household Income (In 2019 Inflation Adjusted Dollars): Black or African American Alone Householder
+      A14007_004:     Median Household Income (In 2019 Inflation Adjusted Dollars): American Indian and Alaska Native Alone  Householder
+      A14007_005:     Median Household Income (In 2019 Inflation Adjusted Dollars): Asian Alone
+      A14007_006:     Median Household Income (In 2019 Inflation Adjusted Dollars): Native Hawaiian and Other Pacific Islander Alone  Householder
+      A14007_007:     Median Household Income (In 2019 Inflation Adjusted Dollars): Some Other Race Alone Householder
+      A14007_008:     Median Household Income (In 2019 Inflation Adjusted Dollars): Two or More Races Householder
+      A14007_009:     Median Household Income (In 2019 Inflation Adjusted Dollars): Hispanic or Latino Householder
+      A14007_010:     Median Household Income (In 2019 Inflation Adjusted Dollars): White Alone Householder, Not Hispanic or Latino
+      A14008_001:     Average Household Income (In 2019 Inflation Adjusted Dollars)
+      A14024_001:     Per Capita Income (In 2019 Inflation Adjusted Dollars)
+      A09005_001:     Workers 16 Years and Over:
+      A09005_002:     Workers 16 Years and Over: Car, Truck, or Van
+      A09005_009:     Workers 16 Years and Over: Drove Alone
+      A09005_010:     Workers 16 Years and Over: Carpooled
+      A09005_003:     Workers 16 Years and Over: Public Transportation (Includes Taxicab)
+      A09005_004:     Workers 16 Years and Over: Motorcycle
+      A09005_005:     Workers 16 Years and Over: Bicycle
+      A09005_006:     Workers 16 Years and Over: Walked
+      A09005_007:     Workers 16 Years and Over: Other Means
+      A09005_008:     Workers 16 Years and Over: Worked At Home
+      A09001_001:     Workers 16 Years and Over:
+      A09001_002:     Workers 16 Years and Over: Did Not Work At Home
+      A09001_003:     Workers 16 Years and Over: Did Not Work At Home: Less than 10 Minutes
+      A09001_004:     Workers 16 Years and Over: Did Not Work At Home: 10 to 19 Minutes
+      A09001_005:     Workers 16 Years and Over: Did Not Work At Home: 20 to 29 Minutes
+      A09001_006:     Workers 16 Years and Over: Did Not Work At Home: 30 to 39 Minutes
+      A09001_007:     Workers 16 Years and Over: Did Not Work At Home: 40 to 59 Minutes
+      A09001_008:     Workers 16 Years and Over: Did Not Work At Home: 60 to 89 Minutes
+      A09001_009:     Workers 16 Years and Over: Did Not Work At Home: 90 or More Minutes
+      A09001_010:     Workers 16 Years and Over: Worked At Home
+      B08124001:      Total
+      B08124002:      Total: Management Business Science And Arts Occupations
+      B08124003:      Total: Service Occupations
+      B08124004:      Total: Sales And Office Occupations
+      B08124005:      Total: Natural Resources Construction And Maintece Occupations
+      B08124006:      Total: Production Transportation And Material Moving Occupations
+      B08124007:      Total: Military Specific Occupations
+      B08124008:      Total: Car Truck Or Van - Drove Alone
+      B08124009:      Total: Car Truck Or Van - Drove Alone: Management Business Science And Arts Occupations
+      B08124010:      Total: Car Truck Or Van - Drove Alone: Service Occupations
+      B08124011:      Total: Car Truck Or Van - Drove Alone: Sales And Office Occupations
+      B08124012:      Total: Car Truck Or Van - Drove Alone: Natural Resources Construction And Maintece Occupations
+      B08124013:      Total: Car Truck Or Van - Drove Alone: Production Transportation And Material Moving Occupations
+      B08124014:      Total: Car Truck Or Van - Drove Alone: Military Specific Occupations
+      B08124015:      Total: Car Truck Or Van - Carpooled
+      B08124016:      Total: Car Truck Or Van - Carpooled: Management Business Science And Arts Occupations
+      B08124017:      Total: Car Truck Or Van - Carpooled: Service Occupations
+      B08124018:      Total: Car Truck Or Van - Carpooled: Sales And Office Occupations
+      B08124019:      Total: Car Truck Or Van - Carpooled: Natural Resources Construction And Maintece Occupations
+      B08124020:      Total: Car Truck Or Van - Carpooled: Production Transportation And Material Moving Occupations
+      B08124021:      Total: Car Truck Or Van - Carpooled: Military Specific Occupations
+      B08124022:      Total: Public Transportation (Excluding Taxicab)
+      B08124023:      Total: Public Transportation (Excluding Taxicab): Management Business Science And Arts Occupations
+      B08124024:      Total: Public Transportation (Excluding Taxicab): Service Occupations
+      B08124025:      Total: Public Transportation (Excluding Taxicab): Sales And Office Occupations
+      B08124026:      Total: Public Transportation (Excluding Taxicab): Natural Resources Construction And Maintece Occupations
+      B08124027:      Total: Public Transportation (Excluding Taxicab): Production Transportation And Material Moving Occupations
+      B08124028:      Total: Public Transportation (Excluding Taxicab): Military Specific Occupations
+      B08124029:      Total: Walked
+      B08124030:      Total: Walked: Management Business Science And Arts Occupations
+      B08124031:      Total: Walked: Service Occupations
+      B08124032:      Total: Walked: Sales And Office Occupations
+      B08124033:      Total: Walked: Natural Resources Construction And Maintece Occupations
+      B08124034:      Total: Walked: Production Transportation And Material Moving Occupations
+      B08124035:      Total: Walked: Military Specific Occupations
+      B08124036:      Total: Taxicab Motorcycle Bicycle Or Other Means
+      B08124037:      Total: Taxicab Motorcycle Bicycle Or Other Means: Management Business Science And Arts Occupations
+      B08124038:      Total: Taxicab Motorcycle Bicycle Or Other Means: Service Occupations
+      B08124039:      Total: Taxicab Motorcycle Bicycle Or Other Means: Sales And Office Occupations
+      B08124040:      Total: Taxicab Motorcycle Bicycle Or Other Means: Natural Resources Construction And Maintece Occupations
+      B08124041:      Total: Taxicab Motorcycle Bicycle Or Other Means: Production Transportation And Material Moving Occupations
+      B08124042:      Total: Taxicab Motorcycle Bicycle Or Other Means: Military Specific Occupations
+      B08124043:      Total: Worked From Home
+      B08124044:      Total: Worked From Home: Management Business Science And Arts Occupations
+      B08124045:      Total: Worked From Home: Service Occupations
+      B08124046:      Total: Worked From Home: Sales And Office Occupations
+      B08124047:      Total: Worked From Home: Natural Resources Construction And Maintece Occupations
+      B08124048:      Total: Worked From Home: Production Transportation And Material Moving Occupations
+      B08124049:      Total: Worked From Home: Military Specific Occupations
+      B08124001s:     Std. Error: Total: Worked From Home At Or Above 150 Percent Of The Poverty Level
+      B08124002s:     Std. Error: Total: Worked From Home At Or Above 150 Percent Of The Poverty Level
+      B08124003s:     Std. Error: Total: Worked From Home At Or Above 150 Percent Of The Poverty Level
+      B08124004s:     Std. Error: Total: Worked From Home At Or Above 150 Percent Of The Poverty Level
+      B08124005s:     Std. Error: Total: Worked From Home At Or Above 150 Percent Of The Poverty Level
+      B08124006s:     Std. Error: Total: Worked From Home At Or Above 150 Percent Of The Poverty Level
+      B08124007s:     Std. Error: Total: Worked From Home At Or Above 150 Percent Of The Poverty Level
+      B08124008s:     Std. Error: Total: Worked From Home At Or Above 150 Percent Of The Poverty Level
+      B08124009s:     Std. Error: Total: Worked From Home At Or Above 150 Percent Of The Poverty Level
+      B08124010s:     Std. Error: Total: Worked From Home At Or Above 150 Percent Of The Poverty Level
+      B08124011s:     Std. Error: Total: Worked From Home At Or Above 150 Percent Of The Poverty Level
+      B08124012s:     Std. Error: Total: Worked From Home At Or Above 150 Percent Of The Poverty Level
+      B08124013s:     Std. Error: Total: Worked From Home At Or Above 150 Percent Of The Poverty Level
+      B08124014s:     Std. Error: Total: Worked From Home At Or Above 150 Percent Of The Poverty Level
+      B08124015s:     Std. Error: Total: Worked From Home At Or Above 150 Percent Of The Poverty Level
+      B08124016s:     Std. Error: Total: Worked From Home At Or Above 150 Percent Of The Poverty Level
+      B08124017s:     Std. Error: Total: Worked From Home At Or Above 150 Percent Of The Poverty Level
+      B08124018s:     Std. Error: Total: Worked From Home At Or Above 150 Percent Of The Poverty Level
+      B08124019s:     Std. Error: Total: Worked From Home At Or Above 150 Percent Of The Poverty Level
+      B08124020s:     Std. Error: Total: Worked From Home At Or Above 150 Percent Of The Poverty Level
+      B08124021s:     Std. Error: Total: Worked From Home At Or Above 150 Percent Of The Poverty Level
+      B08124022s:     Std. Error: Total: Worked From Home At Or Above 150 Percent Of The Poverty Level
+      B08124023s:     Std. Error: Total: Worked From Home At Or Above 150 Percent Of The Poverty Level
+      B08124024s:     Std. Error: Total: Worked From Home At Or Above 150 Percent Of The Poverty Level
+      B08124025s:     Std. Error: Total: Worked From Home At Or Above 150 Percent Of The Poverty Level
+      B08124026s:     Std. Error: Total: Worked From Home At Or Above 150 Percent Of The Poverty Level
+      B08124027s:     Std. Error: Total: Worked From Home At Or Above 150 Percent Of The Poverty Level
+      B08124028s:     Std. Error: Total: Worked From Home At Or Above 150 Percent Of The Poverty Level
+      B08124029s:     Std. Error: Total: Worked From Home At Or Above 150 Percent Of The Poverty Level
+      B08124030s:     Std. Error: Total: Worked From Home At Or Above 150 Percent Of The Poverty Level
+      B08124031s:     Std. Error: Total: Worked From Home At Or Above 150 Percent Of The Poverty Level
+      B08124032s:     Std. Error: Total: Worked From Home At Or Above 150 Percent Of The Poverty Level
+      B08124033s:     Std. Error: Total: Worked From Home At Or Above 150 Percent Of The Poverty Level
+      B08124034s:     Std. Error: Total: Worked From Home At Or Above 150 Percent Of The Poverty Level
+      B08124035s:     Std. Error: Total: Worked From Home At Or Above 150 Percent Of The Poverty Level
+      B08124036s:     Std. Error: Total: Worked From Home At Or Above 150 Percent Of The Poverty Level
+      B08124037s:     Std. Error: Total: Worked From Home At Or Above 150 Percent Of The Poverty Level
+      B08124038s:     Std. Error: Total: Worked From Home At Or Above 150 Percent Of The Poverty Level
+      B08124039s:     Std. Error: Total: Worked From Home At Or Above 150 Percent Of The Poverty Level
+      B08124040s:     Std. Error: Total: Worked From Home At Or Above 150 Percent Of The Poverty Level
+      B08124041s:     Std. Error: Total: Worked From Home At Or Above 150 Percent Of The Poverty Level
+      B08124042s:     Std. Error: Total: Worked From Home At Or Above 150 Percent Of The Poverty Level
+      B08124043s:     Std. Error: Total: Worked From Home At Or Above 150 Percent Of The Poverty Level
+      B08124044s:     Std. Error: Total: Worked From Home At Or Above 150 Percent Of The Poverty Level
+      B08124045s:     Std. Error: Total: Worked From Home At Or Above 150 Percent Of The Poverty Level
+      B08124046s:     Std. Error: Total: Worked From Home At Or Above 150 Percent Of The Poverty Level
+      B08124047s:     Std. Error: Total: Worked From Home At Or Above 150 Percent Of The Poverty Level
+      B08124048s:     Std. Error: Total: Worked From Home At Or Above 150 Percent Of The Poverty Level
+      B08124049s:     Std. Error: Total: Worked From Home At Or Above 150 Percent Of The Poverty Level
+      B08132001:      Total
+      B08132002:      Total: 12:00 A.M. To 4:59 A.M.
+      B08132003:      Total: 5:00 A.M. To 5:29 A.M.
+      B08132004:      Total: 5:30 A.M. To 5:59 A.M.
+      B08132005:      Total: 6:00 A.M. To 6:29 A.M.
+      B08132006:      Total: 6:30 A.M. To 6:59 A.M.
+      B08132007:      Total: 7:00 A.M. To 7:29 A.M.
+      B08132008:      Total: 7:30 A.M. To 7:59 A.M.
+      B08132009:      Total: 8:00 A.M. To 8:29 A.M.
+      B08132010:      Total: 8:30 A.M. To 8:59 A.M.
+      B08132011:      Total: 9:00 A.M. To 9:59 A.M.
+      B08132012:      Total: 10:00 A.M. To 10:59 A.M.
+      B08132013:      Total: 11:00 A.M. To 11:59 A.M.
+      B08132014:      Total: 12:00 P.M. To 3:59 P.M.
+      B08132015:      Total: 4:00 P.M. To 11:59 P.M.
+      B08132016:      Total: Car Truck Or Van - Drove Alone
+      B08132017:      Total: Car Truck Or Van - Drove Alone: 12:00 A.M. To 4:59 A.M.
+      B08132018:      Total: Car Truck Or Van - Drove Alone: 5:00 A.M. To 5:29 A.M.
+      B08132019:      Total: Car Truck Or Van - Drove Alone: 5:30 A.M. To 5:59 A.M.
+      B08132020:      Total: Car Truck Or Van - Drove Alone: 6:00 A.M. To 6:29 A.M.
+      B08132021:      Total: Car Truck Or Van - Drove Alone: 6:30 A.M. To 6:59 A.M.
+      B08132022:      Total: Car Truck Or Van - Drove Alone: 7:00 A.M. To 7:29 A.M.
+      B08132023:      Total: Car Truck Or Van - Drove Alone: 7:30 A.M. To 7:59 A.M.
+      B08132024:      Total: Car Truck Or Van - Drove Alone: 8:00 A.M. To 8:29 A.M.
+      B08132025:      Total: Car Truck Or Van - Drove Alone: 8:30 A.M. To 8:59 A.M.
+      B08132026:      Total: Car Truck Or Van - Drove Alone: 9:00 A.M. To 9:59 A.M.
+      B08132027:      Total: Car Truck Or Van - Drove Alone: 10:00 A.M. To 10:59 A.M.
+      B08132028:      Total: Car Truck Or Van - Drove Alone: 11:00 A.M. To 11:59 A.M.
+      B08132029:      Total: Car Truck Or Van - Drove Alone: 12:00 P.M. To 3:59 P.M.
+      B08132030:      Total: Car Truck Or Van - Drove Alone: 4:00 P.M. To 11:59 P.M.
+      B08132031:      Total: Car Truck Or Van - Carpooled
+      B08132032:      Total: Car Truck Or Van - Carpooled: 12:00 A.M. To 4:59 A.M.
+      B08132033:      Total: Car Truck Or Van - Carpooled: 5:00 A.M. To 5:29 A.M.
+      B08132034:      Total: Car Truck Or Van - Carpooled: 5:30 A.M. To 5:59 A.M.
+      B08132035:      Total: Car Truck Or Van - Carpooled: 6:00 A.M. To 6:29 A.M.
+      B08132036:      Total: Car Truck Or Van - Carpooled: 6:30 A.M. To 6:59 A.M.
+      B08132037:      Total: Car Truck Or Van - Carpooled: 7:00 A.M. To 7:29 A.M.
+      B08132038:      Total: Car Truck Or Van - Carpooled: 7:30 A.M. To 7:59 A.M.
+      B08132039:      Total: Car Truck Or Van - Carpooled: 8:00 A.M. To 8:29 A.M.
+      B08132040:      Total: Car Truck Or Van - Carpooled: 8:30 A.M. To 8:59 A.M.
+      B08132041:      Total: Car Truck Or Van - Carpooled: 9:00 A.M. To 9:59 A.M.
+      B08132042:      Total: Car Truck Or Van - Carpooled: 10:00 A.M. To 10:59 A.M.
+      B08132043:      Total: Car Truck Or Van - Carpooled: 11:00 A.M. To 11:59 A.M.
+      B08132044:      Total: Car Truck Or Van - Carpooled: 12:00 P.M. To 3:59 P.M.
+      B08132045:      Total: Car Truck Or Van - Carpooled: 4:00 P.M. To 11:59 P.M.
+      B08132046:      Total: Public Transportation (Excluding Taxicab)
+      B08132047:      Total: Public Transportation (Excluding Taxicab): 12:00 A.M. To 4:59 A.M.
+      B08132048:      Total: Public Transportation (Excluding Taxicab): 5:00 A.M. To 5:29 A.M.
+      B08132049:      Total: Public Transportation (Excluding Taxicab): 5:30 A.M. To 5:59 A.M.
+      B08132050:      Total: Public Transportation (Excluding Taxicab): 6:00 A.M. To 6:29 A.M.
+      B08132051:      Total: Public Transportation (Excluding Taxicab): 6:30 A.M. To 6:59 A.M.
+      B08132052:      Total: Public Transportation (Excluding Taxicab): 7:00 A.M. To 7:29 A.M.
+      B08132053:      Total: Public Transportation (Excluding Taxicab): 7:30 A.M. To 7:59 A.M.
+      B08132054:      Total: Public Transportation (Excluding Taxicab): 8:00 A.M. To 8:29 A.M.
+      B08132055:      Total: Public Transportation (Excluding Taxicab): 8:30 A.M. To 8:59 A.M.
+      B08132056:      Total: Public Transportation (Excluding Taxicab): 9:00 A.M. To 9:59 A.M.
+      B08132057:      Total: Public Transportation (Excluding Taxicab): 10:00 A.M. To 10:59 A.M.
+      B08132058:      Total: Public Transportation (Excluding Taxicab): 11:00 A.M. To 11:59 A.M.
+      B08132059:      Total: Public Transportation (Excluding Taxicab): 12:00 P.M. To 3:59 P.M.
+      B08132060:      Total: Public Transportation (Excluding Taxicab): 4:00 P.M. To 11:59 P.M.
+      B08132061:      Total: Walked
+      B08132062:      Total: Walked: 12:00 A.M. To 4:59 A.M.
+      B08132063:      Total: Walked: 5:00 A.M. To 5:29 A.M.
+      B08132064:      Total: Walked: 5:30 A.M. To 5:59 A.M.
+      B08132065:      Total: Walked: 6:00 A.M. To 6:29 A.M.
+      B08132066:      Total: Walked: 6:30 A.M. To 6:59 A.M.
+      B08132067:      Total: Walked: 7:00 A.M. To 7:29 A.M.
+      B08132068:      Total: Walked: 7:30 A.M. To 7:59 A.M.
+      B08132069:      Total: Walked: 8:00 A.M. To 8:29 A.M.
+      B08132070:      Total: Walked: 8:30 A.M. To 8:59 A.M.
+      B08132071:      Total: Walked: 9:00 A.M. To 9:59 A.M.
+      B08132072:      Total: Walked: 10:00 A.M. To 10:59 A.M.
+      B08132073:      Total: Walked: 11:00 A.M. To 11:59 A.M.
+      B08132074:      Total: Walked: 12:00 P.M. To 3:59 P.M.
+      B08132075:      Total: Walked: 4:00 P.M. To 11:59 P.M.
+      B08132076:      Total: Taxicab Motorcycle Bicycle Or Other Means
+      B08132077:      Total: Taxicab Motorcycle Bicycle Or Other Means: 12:00 A.M. To 4:59 A.M.
+      B08132078:      Total: Taxicab Motorcycle Bicycle Or Other Means: 5:00 A.M. To 5:29 A.M.
+      B08132079:      Total: Taxicab Motorcycle Bicycle Or Other Means: 5:30 A.M. To 5:59 A.M.
+      B08132080:      Total: Taxicab Motorcycle Bicycle Or Other Means: 6:00 A.M. To 6:29 A.M.
+      B08132081:      Total: Taxicab Motorcycle Bicycle Or Other Means: 6:30 A.M. To 6:59 A.M.
+      B08132082:      Total: Taxicab Motorcycle Bicycle Or Other Means: 7:00 A.M. To 7:29 A.M.
+      B08132083:      Total: Taxicab Motorcycle Bicycle Or Other Means: 7:30 A.M. To 7:59 A.M.
+      B08132084:      Total: Taxicab Motorcycle Bicycle Or Other Means: 8:00 A.M. To 8:29 A.M.
+      B08132085:      Total: Taxicab Motorcycle Bicycle Or Other Means: 8:30 A.M. To 8:59 A.M.
+      B08132086:      Total: Taxicab Motorcycle Bicycle Or Other Means: 9:00 A.M. To 9:59 A.M.
+      B08132087:      Total: Taxicab Motorcycle Bicycle Or Other Means: 10:00 A.M. To 10:59 A.M.
+      B08132088:      Total: Taxicab Motorcycle Bicycle Or Other Means: 11:00 A.M. To 11:59 A.M.
+      B08132089:      Total: Taxicab Motorcycle Bicycle Or Other Means: 12:00 P.M. To 3:59 P.M.
+      B08132090:      Total: Taxicab Motorcycle Bicycle Or Other Means: 4:00 P.M. To 11:59 P.M.
+      B08132001s:     Std. Error: Aggregate Travel Time To Work (In Minutes): Worked Outside State Of Residence
+      B08132002s:     Std. Error: Aggregate Travel Time To Work (In Minutes): Worked Outside State Of Residence
+      B08132003s:     Std. Error: Aggregate Travel Time To Work (In Minutes): Worked Outside State Of Residence
+      B08132004s:     Std. Error: Aggregate Travel Time To Work (In Minutes): Worked Outside State Of Residence
+      B08132005s:     Std. Error: Aggregate Travel Time To Work (In Minutes): Worked Outside State Of Residence
+      B08132006s:     Std. Error: Aggregate Travel Time To Work (In Minutes): Worked Outside State Of Residence
+      B08132007s:     Std. Error: Aggregate Travel Time To Work (In Minutes): Worked Outside State Of Residence
+      B08132008s:     Std. Error: Aggregate Travel Time To Work (In Minutes): Worked Outside State Of Residence
+      B08132009s:     Std. Error: Aggregate Travel Time To Work (In Minutes): Worked Outside State Of Residence
+      B08132010s:     Std. Error: Aggregate Travel Time To Work (In Minutes): Worked Outside State Of Residence
+      B08132011s:     Std. Error: Aggregate Travel Time To Work (In Minutes): Worked Outside State Of Residence
+      B08132012s:     Std. Error: Aggregate Travel Time To Work (In Minutes): Worked Outside State Of Residence
+      B08132013s:     Std. Error: Aggregate Travel Time To Work (In Minutes): Worked Outside State Of Residence
+      B08132014s:     Std. Error: Aggregate Travel Time To Work (In Minutes): Worked Outside State Of Residence
+      B08132015s:     Std. Error: Aggregate Travel Time To Work (In Minutes): Worked Outside State Of Residence
+      B08132016s:     Std. Error: Aggregate Travel Time To Work (In Minutes): Worked Outside State Of Residence
+      B08132017s:     Std. Error: Aggregate Travel Time To Work (In Minutes): Worked Outside State Of Residence
+      B08132018s:     Std. Error: Aggregate Travel Time To Work (In Minutes): Worked Outside State Of Residence
+      B08132019s:     Std. Error: Aggregate Travel Time To Work (In Minutes): Worked Outside State Of Residence
+      B08132020s:     Std. Error: Aggregate Travel Time To Work (In Minutes): Worked Outside State Of Residence
+      B08132021s:     Std. Error: Aggregate Travel Time To Work (In Minutes): Worked Outside State Of Residence
+      B08132022s:     Std. Error: Aggregate Travel Time To Work (In Minutes): Worked Outside State Of Residence
+      B08132023s:     Std. Error: Aggregate Travel Time To Work (In Minutes): Worked Outside State Of Residence
+      B08132024s:     Std. Error: Aggregate Travel Time To Work (In Minutes): Worked Outside State Of Residence
+      B08132025s:     Std. Error: Aggregate Travel Time To Work (In Minutes): Worked Outside State Of Residence
+      B08132026s:     Std. Error: Aggregate Travel Time To Work (In Minutes): Worked Outside State Of Residence
+      B08132027s:     Std. Error: Aggregate Travel Time To Work (In Minutes): Worked Outside State Of Residence
+      B08132028s:     Std. Error: Aggregate Travel Time To Work (In Minutes): Worked Outside State Of Residence
+      B08132029s:     Std. Error: Aggregate Travel Time To Work (In Minutes): Worked Outside State Of Residence
+      B08132030s:     Std. Error: Aggregate Travel Time To Work (In Minutes): Worked Outside State Of Residence
+      B08132031s:     Std. Error: Aggregate Travel Time To Work (In Minutes): Worked Outside State Of Residence
+      B08132032s:     Std. Error: Aggregate Travel Time To Work (In Minutes): Worked Outside State Of Residence
+      B08132033s:     Std. Error: Aggregate Travel Time To Work (In Minutes): Worked Outside State Of Residence
+      B08132034s:     Std. Error: Aggregate Travel Time To Work (In Minutes): Worked Outside State Of Residence
+      B08132035s:     Std. Error: Aggregate Travel Time To Work (In Minutes): Worked Outside State Of Residence
+      B08132036s:     Std. Error: Aggregate Travel Time To Work (In Minutes): Worked Outside State Of Residence
+      B08132037s:     Std. Error: Aggregate Travel Time To Work (In Minutes): Worked Outside State Of Residence
+      B08132038s:     Std. Error: Aggregate Travel Time To Work (In Minutes): Worked Outside State Of Residence
+      B08132039s:     Std. Error: Aggregate Travel Time To Work (In Minutes): Worked Outside State Of Residence
+      B08132040s:     Std. Error: Aggregate Travel Time To Work (In Minutes): Worked Outside State Of Residence
+      B08132041s:     Std. Error: Aggregate Travel Time To Work (In Minutes): Worked Outside State Of Residence
+      B08132042s:     Std. Error: Aggregate Travel Time To Work (In Minutes): Worked Outside State Of Residence
+      B08132043s:     Std. Error: Aggregate Travel Time To Work (In Minutes): Worked Outside State Of Residence
+      B08132044s:     Std. Error: Aggregate Travel Time To Work (In Minutes): Worked Outside State Of Residence
+      B08132045s:     Std. Error: Aggregate Travel Time To Work (In Minutes): Worked Outside State Of Residence
+      B08132046s:     Std. Error: Aggregate Travel Time To Work (In Minutes): Worked Outside State Of Residence
+      B08132047s:     Std. Error: Aggregate Travel Time To Work (In Minutes): Worked Outside State Of Residence
+      B08132048s:     Std. Error: Aggregate Travel Time To Work (In Minutes): Worked Outside State Of Residence
+      B08132049s:     Std. Error: Aggregate Travel Time To Work (In Minutes): Worked Outside State Of Residence
+      B08132050s:     Std. Error: Aggregate Travel Time To Work (In Minutes): Worked Outside State Of Residence
+      B08132051s:     Std. Error: Aggregate Travel Time To Work (In Minutes): Worked Outside State Of Residence
+      B08132052s:     Std. Error: Aggregate Travel Time To Work (In Minutes): Worked Outside State Of Residence
+      B08132053s:     Std. Error: Aggregate Travel Time To Work (In Minutes): Worked Outside State Of Residence
+      B08132054s:     Std. Error: Aggregate Travel Time To Work (In Minutes): Worked Outside State Of Residence
+      B08132055s:     Std. Error: Aggregate Travel Time To Work (In Minutes): Worked Outside State Of Residence
+      B08132056s:     Std. Error: Aggregate Travel Time To Work (In Minutes): Worked Outside State Of Residence
+      B08132057s:     Std. Error: Aggregate Travel Time To Work (In Minutes): Worked Outside State Of Residence
+      B08132058s:     Std. Error: Aggregate Travel Time To Work (In Minutes): Worked Outside State Of Residence
+      B08132059s:     Std. Error: Aggregate Travel Time To Work (In Minutes): Worked Outside State Of Residence
+      B08132060s:     Std. Error: Aggregate Travel Time To Work (In Minutes): Worked Outside State Of Residence
+      B08132061s:     Std. Error: Aggregate Travel Time To Work (In Minutes): Worked Outside State Of Residence
+      B08132062s:     Std. Error: Aggregate Travel Time To Work (In Minutes): Worked Outside State Of Residence
+      B08132063s:     Std. Error: Aggregate Travel Time To Work (In Minutes): Worked Outside State Of Residence
+      B08132064s:     Std. Error: Aggregate Travel Time To Work (In Minutes): Worked Outside State Of Residence
+      B08132065s:     Std. Error: Aggregate Travel Time To Work (In Minutes): Worked Outside State Of Residence
+      B08132066s:     Std. Error: Aggregate Travel Time To Work (In Minutes): Worked Outside State Of Residence
+      B08132067s:     Std. Error: Aggregate Travel Time To Work (In Minutes): Worked Outside State Of Residence
+      B08132068s:     Std. Error: Aggregate Travel Time To Work (In Minutes): Worked Outside State Of Residence
+      B08132069s:     Std. Error: Aggregate Travel Time To Work (In Minutes): Worked Outside State Of Residence
+      B08132070s:     Std. Error: Aggregate Travel Time To Work (In Minutes): Worked Outside State Of Residence
+      B08132071s:     Std. Error: Aggregate Travel Time To Work (In Minutes): Worked Outside State Of Residence
+      B08132072s:     Std. Error: Aggregate Travel Time To Work (In Minutes): Worked Outside State Of Residence
+      B08132073s:     Std. Error: Aggregate Travel Time To Work (In Minutes): Worked Outside State Of Residence
+      B08132074s:     Std. Error: Aggregate Travel Time To Work (In Minutes): Worked Outside State Of Residence
+      B08132075s:     Std. Error: Aggregate Travel Time To Work (In Minutes): Worked Outside State Of Residence
+      B08132076s:     Std. Error: Aggregate Travel Time To Work (In Minutes): Worked Outside State Of Residence
+      B08132077s:     Std. Error: Aggregate Travel Time To Work (In Minutes): Worked Outside State Of Residence
+      B08132078s:     Std. Error: Aggregate Travel Time To Work (In Minutes): Worked Outside State Of Residence
+      B08132079s:     Std. Error: Aggregate Travel Time To Work (In Minutes): Worked Outside State Of Residence
+      B08132080s:     Std. Error: Aggregate Travel Time To Work (In Minutes): Worked Outside State Of Residence
+      B08132081s:     Std. Error: Aggregate Travel Time To Work (In Minutes): Worked Outside State Of Residence
+      B08132082s:     Std. Error: Aggregate Travel Time To Work (In Minutes): Worked Outside State Of Residence
+      B08132083s:     Std. Error: Aggregate Travel Time To Work (In Minutes): Worked Outside State Of Residence
+      B08132084s:     Std. Error: Aggregate Travel Time To Work (In Minutes): Worked Outside State Of Residence
+      B08132085s:     Std. Error: Aggregate Travel Time To Work (In Minutes): Worked Outside State Of Residence
+      B08132086s:     Std. Error: Aggregate Travel Time To Work (In Minutes): Worked Outside State Of Residence
+      B08132087s:     Std. Error: Aggregate Travel Time To Work (In Minutes): Worked Outside State Of Residence
+      B08132088s:     Std. Error: Aggregate Travel Time To Work (In Minutes): Worked Outside State Of Residence
+      B08132089s:     Std. Error: Aggregate Travel Time To Work (In Minutes): Worked Outside State Of Residence
+      B08132090s:     Std. Error: Aggregate Travel Time To Work (In Minutes): Worked Outside State Of Residence
+      B08134001:      Total
+      B08134002:      Total: Less Than 10 Minutes
+      B08134003:      Total: 10 To 14 Minutes
+      B08134004:      Total: 15 To 19 Minutes
+      B08134005:      Total: 20 To 24 Minutes
+      B08134006:      Total: 25 To 29 Minutes
+      B08134007:      Total: 30 To 34 Minutes
+      B08134008:      Total: 35 To 44 Minutes
+      B08134009:      Total: 45 To 59 Minutes
+      B08134010:      Total: 60 Or More Minutes
+      B08134011:      Total: Car Truck Or Van
+      B08134012:      Total: Car Truck Or Van: Less Than 10 Minutes
+      B08134013:      Total: Car Truck Or Van: 10 To 14 Minutes
+      B08134014:      Total: Car Truck Or Van: 15 To 19 Minutes
+      B08134015:      Total: Car Truck Or Van: 20 To 24 Minutes
+      B08134016:      Total: Car Truck Or Van: 25 To 29 Minutes
+      B08134017:      Total: Car Truck Or Van: 30 To 34 Minutes
+      B08134018:      Total: Car Truck Or Van: 35 To 44 Minutes
+      B08134019:      Total: Car Truck Or Van: 45 To 59 Minutes
+      B08134020:      Total: Car Truck Or Van: 60 Or More Minutes
+      B08134021:      Total: Car Truck Or Van: Drove Alone
+      B08134022:      Total: Car Truck Or Van: Drove Alone: Less Than 10 Minutes
+      B08134023:      Total: Car Truck Or Van: Drove Alone: 10 To 14 Minutes
+      B08134024:      Total: Car Truck Or Van: Drove Alone: 15 To 19 Minutes
+      B08134025:      Total: Car Truck Or Van: Drove Alone: 20 To 24 Minutes
+      B08134026:      Total: Car Truck Or Van: Drove Alone: 25 To 29 Minutes
+      B08134027:      Total: Car Truck Or Van: Drove Alone: 30 To 34 Minutes
+      B08134028:      Total: Car Truck Or Van: Drove Alone: 35 To 44 Minutes
+      B08134029:      Total: Car Truck Or Van: Drove Alone: 45 To 59 Minutes
+      B08134030:      Total: Car Truck Or Van: Drove Alone: 60 Or More Minutes
+      B08134031:      Total:  Carpooled
+      B08134032:      Total:  Carpooled: Less Than 10 Minutes
+      B08134033:      Total:  Carpooled: 10 To 14 Minutes
+      B08134034:      Total:  Carpooled: 15 To 19 Minutes
+      B08134035:      Total:  Carpooled: 20 To 24 Minutes
+      B08134036:      Total:  Carpooled: 25 To 29 Minutes
+      B08134037:      Total:  Carpooled: 30 To 34 Minutes
+      B08134038:      Total:  Carpooled: 35 To 44 Minutes
+      B08134039:      Total:  Carpooled: 45 To 59 Minutes
+      B08134040:      Total:  Carpooled: 60 Or More Minutes
+      B08134041:      Total:  Carpooled: In 2-Person Carpool
+      B08134042:      Total:  Carpooled: In 2-Person Carpool: Less Than 10 Minutes
+      B08134043:      Total:  Carpooled: In 2-Person Carpool: 10 To 14 Minutes
+      B08134044:      Total:  Carpooled: In 2-Person Carpool: 15 To 19 Minutes
+      B08134045:      Total:  Carpooled: In 2-Person Carpool: 20 To 24 Minutes
+      B08134046:      Total:  Carpooled: In 2-Person Carpool: 25 To 29 Minutes
+      B08134047:      Total:  Carpooled: In 2-Person Carpool: 30 To 34 Minutes
+      B08134048:      Total:  Carpooled: In 2-Person Carpool: 35 To 44 Minutes
+      B08134049:      Total:  Carpooled: In 2-Person Carpool: 45 To 59 Minutes
+      B08134050:      Total:  Carpooled: In 2-Person Carpool: 60 Or More Minutes
+      B08134051:      Total:   In 3-Or-More-Person Carpool
+      B08134052:      Total:   In 3-Or-More-Person Carpool: Less Than 10 Minutes
+      B08134053:      Total:   In 3-Or-More-Person Carpool: 10 To 14 Minutes
+      B08134054:      Total:   In 3-Or-More-Person Carpool: 15 To 19 Minutes
+      B08134055:      Total:   In 3-Or-More-Person Carpool: 20 To 24 Minutes
+      B08134056:      Total:   In 3-Or-More-Person Carpool: 25 To 29 Minutes
+      B08134057:      Total:   In 3-Or-More-Person Carpool: 30 To 34 Minutes
+      B08134058:      Total:   In 3-Or-More-Person Carpool: 35 To 44 Minutes
+      B08134059:      Total:   In 3-Or-More-Person Carpool: 45 To 59 Minutes
+      B08134060:      Total:   In 3-Or-More-Person Carpool: 60 Or More Minutes
+      B08134061:      Total: Public Transportation (Excluding Taxicab)
+      B08134062:      Total: Public Transportation (Excluding Taxicab): Less Than 10 Minutes
+      B08134063:      Total: Public Transportation (Excluding Taxicab): 10 To 14 Minutes
+      B08134064:      Total: Public Transportation (Excluding Taxicab): 15 To 19 Minutes
+      B08134065:      Total: Public Transportation (Excluding Taxicab): 20 To 24 Minutes
+      B08134066:      Total: Public Transportation (Excluding Taxicab): 25 To 29 Minutes
+      B08134067:      Total: Public Transportation (Excluding Taxicab): 30 To 34 Minutes
+      B08134068:      Total: Public Transportation (Excluding Taxicab): 35 To 44 Minutes
+      B08134069:      Total: Public Transportation (Excluding Taxicab): 45 To 59 Minutes
+      B08134070:      Total: Public Transportation (Excluding Taxicab): 60 Or More Minutes
+      B08134071:      Total: Public Transportation (Excluding Taxicab): Bus
+      B08134072:      Total: Public Transportation (Excluding Taxicab): Bus: Less Than 10 Minutes
+      B08134073:      Total: Public Transportation (Excluding Taxicab): Bus: 10 To 14 Minutes
+      B08134074:      Total: Public Transportation (Excluding Taxicab): Bus: 15 To 19 Minutes
+      B08134075:      Total: Public Transportation (Excluding Taxicab): Bus: 20 To 24 Minutes
+      B08134076:      Total: Public Transportation (Excluding Taxicab): Bus: 25 To 29 Minutes
+      B08134077:      Total: Public Transportation (Excluding Taxicab): Bus: 30 To 34 Minutes
+      B08134078:      Total: Public Transportation (Excluding Taxicab): Bus: 35 To 44 Minutes
+      B08134079:      Total: Public Transportation (Excluding Taxicab): Bus: 45 To 59 Minutes
+      B08134080:      Total: Public Transportation (Excluding Taxicab): Bus: 60 Or More Minutes
+      B08134081:      Total:  Subway Or Elevated Rail Light Rail Streetcar Or Trolley (Carro Público In Puerto Rico)
+      B08134082:      Total:  Subway Or Elevated Rail Light Rail Streetcar Or Trolley (Carro Público In Puerto Rico): Less Than 10 Minutes
+      B08134083:      Total:  Subway Or Elevated Rail Light Rail Streetcar Or Trolley (Carro Público In Puerto Rico): 10 To 14 Minutes
+      B08134084:      Total:  Subway Or Elevated Rail Light Rail Streetcar Or Trolley (Carro Público In Puerto Rico): 15 To 19 Minutes
+      B08134085:      Total:  Subway Or Elevated Rail Light Rail Streetcar Or Trolley (Carro Público In Puerto Rico): 20 To 24 Minutes
+      B08134086:      Total:  Subway Or Elevated Rail Light Rail Streetcar Or Trolley (Carro Público In Puerto Rico): 25 To 29 Minutes
+      B08134087:      Total:  Subway Or Elevated Rail Light Rail Streetcar Or Trolley (Carro Público In Puerto Rico): 30 To 34 Minutes
+      B08134088:      Total:  Subway Or Elevated Rail Light Rail Streetcar Or Trolley (Carro Público In Puerto Rico): 35 To 44 Minutes
+      B08134089:      Total:  Subway Or Elevated Rail Light Rail Streetcar Or Trolley (Carro Público In Puerto Rico): 45 To 59 Minutes
+      B08134090:      Total:  Subway Or Elevated Rail Light Rail Streetcar Or Trolley (Carro Público In Puerto Rico): 60 Or More Minutes
+      B08134091:      Total:  Long-Distance Train Or Commuter Rail Or Ferryboat
+      B08134092:      Total:  Long-Distance Train Or Commuter Rail Or Ferryboat: Less Than 10 Minutes
+      B08134093:      Total:  Long-Distance Train Or Commuter Rail Or Ferryboat: 10 To 14 Minutes
+      B08134094:      Total:  Long-Distance Train Or Commuter Rail Or Ferryboat: 15 To 19 Minutes
+      B08134095:      Total:  Long-Distance Train Or Commuter Rail Or Ferryboat: 20 To 24 Minutes
+      B08134096:      Total:  Long-Distance Train Or Commuter Rail Or Ferryboat: 25 To 29 Minutes
+      B08134097:      Total:  Long-Distance Train Or Commuter Rail Or Ferryboat: 30 To 34 Minutes
+      B08134098:      Total:  Long-Distance Train Or Commuter Rail Or Ferryboat: 35 To 44 Minutes
+      B08134099:      Total:  Long-Distance Train Or Commuter Rail Or Ferryboat: 45 To 59 Minutes
+      B08134100:      Total:  Long-Distance Train Or Commuter Rail Or Ferryboat: 60 Or More Minutes
+      B08134101:      Total: Walked
+      B08134102:      Total: Walked: Less Than 10 Minutes
+      B08134103:      Total: Walked: 10 To 14 Minutes
+      B08134104:      Total: Walked: 15 To 19 Minutes
+      B08134105:      Total: Walked: 20 To 24 Minutes
+      B08134106:      Total: Walked: 25 To 29 Minutes
+      B08134107:      Total: Walked: 30 To 34 Minutes
+      B08134108:      Total: Walked: 35 To 44 Minutes
+      B08134109:      Total: Walked: 45 To 59 Minutes
+      B08134110:      Total: Walked: 60 Or More Minutes
+      B08134111:      Total: Taxicab Motorcycle Bicycle Or Other Means
+      B08134112:      Total: Taxicab Motorcycle Bicycle Or Other Means: Less Than 10 Minutes
+      B08134113:      Total: Taxicab Motorcycle Bicycle Or Other Means: 10 To 14 Minutes
+      B08134114:      Total: Taxicab Motorcycle Bicycle Or Other Means: 15 To 19 Minutes
+      B08134115:      Total: Taxicab Motorcycle Bicycle Or Other Means: 20 To 24 Minutes
+      B08134116:      Total: Taxicab Motorcycle Bicycle Or Other Means: 25 To 29 Minutes
+      B08134117:      Total: Taxicab Motorcycle Bicycle Or Other Means: 30 To 34 Minutes
+      B08134118:      Total: Taxicab Motorcycle Bicycle Or Other Means: 35 To 44 Minutes
+      B08134119:      Total: Taxicab Motorcycle Bicycle Or Other Means: 45 To 59 Minutes
+      B08134120:      Total: Taxicab Motorcycle Bicycle Or Other Means: 60 Or More Minutes
+      B08134001s:     Std. Error: Aggregate Travel Time To Work (In Minutes): 4:00 P.M. To 11:59 P.M.
+      B08134002s:     Std. Error: Aggregate Travel Time To Work (In Minutes): 4:00 P.M. To 11:59 P.M.
+      B08134003s:     Std. Error: Aggregate Travel Time To Work (In Minutes): 4:00 P.M. To 11:59 P.M.
+      B08134004s:     Std. Error: Aggregate Travel Time To Work (In Minutes): 4:00 P.M. To 11:59 P.M.
+      B08134005s:     Std. Error: Aggregate Travel Time To Work (In Minutes): 4:00 P.M. To 11:59 P.M.
+      B08134006s:     Std. Error: Aggregate Travel Time To Work (In Minutes): 4:00 P.M. To 11:59 P.M.
+      B08134007s:     Std. Error: Aggregate Travel Time To Work (In Minutes): 4:00 P.M. To 11:59 P.M.
+      B08134008s:     Std. Error: Aggregate Travel Time To Work (In Minutes): 4:00 P.M. To 11:59 P.M.
+      B08134009s:     Std. Error: Aggregate Travel Time To Work (In Minutes): 4:00 P.M. To 11:59 P.M.
+      B08134010s:     Std. Error: Aggregate Travel Time To Work (In Minutes): 4:00 P.M. To 11:59 P.M.
+      B08134011s:     Std. Error: Aggregate Travel Time To Work (In Minutes): 4:00 P.M. To 11:59 P.M.
+      B08134012s:     Std. Error: Aggregate Travel Time To Work (In Minutes): 4:00 P.M. To 11:59 P.M.
+      B08134013s:     Std. Error: Aggregate Travel Time To Work (In Minutes): 4:00 P.M. To 11:59 P.M.
+      B08134014s:     Std. Error: Aggregate Travel Time To Work (In Minutes): 4:00 P.M. To 11:59 P.M.
+      B08134015s:     Std. Error: Aggregate Travel Time To Work (In Minutes): 4:00 P.M. To 11:59 P.M.
+      B08134016s:     Std. Error: Aggregate Travel Time To Work (In Minutes): 4:00 P.M. To 11:59 P.M.
+      B08134017s:     Std. Error: Aggregate Travel Time To Work (In Minutes): 4:00 P.M. To 11:59 P.M.
+      B08134018s:     Std. Error: Aggregate Travel Time To Work (In Minutes): 4:00 P.M. To 11:59 P.M.
+      B08134019s:     Std. Error: Aggregate Travel Time To Work (In Minutes): 4:00 P.M. To 11:59 P.M.
+      B08134020s:     Std. Error: Aggregate Travel Time To Work (In Minutes): 4:00 P.M. To 11:59 P.M.
+      B08134021s:     Std. Error: Aggregate Travel Time To Work (In Minutes): 4:00 P.M. To 11:59 P.M.
+      B08134022s:     Std. Error: Aggregate Travel Time To Work (In Minutes): 4:00 P.M. To 11:59 P.M.
+      B08134023s:     Std. Error: Aggregate Travel Time To Work (In Minutes): 4:00 P.M. To 11:59 P.M.
+      B08134024s:     Std. Error: Aggregate Travel Time To Work (In Minutes): 4:00 P.M. To 11:59 P.M.
+      B08134025s:     Std. Error: Aggregate Travel Time To Work (In Minutes): 4:00 P.M. To 11:59 P.M.
+      B08134026s:     Std. Error: Aggregate Travel Time To Work (In Minutes): 4:00 P.M. To 11:59 P.M.
+      B08134027s:     Std. Error: Aggregate Travel Time To Work (In Minutes): 4:00 P.M. To 11:59 P.M.
+      B08134028s:     Std. Error: Aggregate Travel Time To Work (In Minutes): 4:00 P.M. To 11:59 P.M.
+      B08134029s:     Std. Error: Aggregate Travel Time To Work (In Minutes): 4:00 P.M. To 11:59 P.M.
+      B08134030s:     Std. Error: Aggregate Travel Time To Work (In Minutes): 4:00 P.M. To 11:59 P.M.
+      B08134031s:     Std. Error: Aggregate Travel Time To Work (In Minutes): 4:00 P.M. To 11:59 P.M.
+      B08134032s:     Std. Error: Aggregate Travel Time To Work (In Minutes): 4:00 P.M. To 11:59 P.M.
+      B08134033s:     Std. Error: Aggregate Travel Time To Work (In Minutes): 4:00 P.M. To 11:59 P.M.
+      B08134034s:     Std. Error: Aggregate Travel Time To Work (In Minutes): 4:00 P.M. To 11:59 P.M.
+      B08134035s:     Std. Error: Aggregate Travel Time To Work (In Minutes): 4:00 P.M. To 11:59 P.M.
+      B08134036s:     Std. Error: Aggregate Travel Time To Work (In Minutes): 4:00 P.M. To 11:59 P.M.
+      B08134037s:     Std. Error: Aggregate Travel Time To Work (In Minutes): 4:00 P.M. To 11:59 P.M.
+      B08134038s:     Std. Error: Aggregate Travel Time To Work (In Minutes): 4:00 P.M. To 11:59 P.M.
+      B08134039s:     Std. Error: Aggregate Travel Time To Work (In Minutes): 4:00 P.M. To 11:59 P.M.
+      B08134040s:     Std. Error: Aggregate Travel Time To Work (In Minutes): 4:00 P.M. To 11:59 P.M.
+      B08134041s:     Std. Error: Aggregate Travel Time To Work (In Minutes): 4:00 P.M. To 11:59 P.M.
+      B08134042s:     Std. Error: Aggregate Travel Time To Work (In Minutes): 4:00 P.M. To 11:59 P.M.
+      B08134043s:     Std. Error: Aggregate Travel Time To Work (In Minutes): 4:00 P.M. To 11:59 P.M.
+      B08134044s:     Std. Error: Aggregate Travel Time To Work (In Minutes): 4:00 P.M. To 11:59 P.M.
+      B08134045s:     Std. Error: Aggregate Travel Time To Work (In Minutes): 4:00 P.M. To 11:59 P.M.
+      B08134046s:     Std. Error: Aggregate Travel Time To Work (In Minutes): 4:00 P.M. To 11:59 P.M.
+      B08134047s:     Std. Error: Aggregate Travel Time To Work (In Minutes): 4:00 P.M. To 11:59 P.M.
+      B08134048s:     Std. Error: Aggregate Travel Time To Work (In Minutes): 4:00 P.M. To 11:59 P.M.
+      B08134049s:     Std. Error: Aggregate Travel Time To Work (In Minutes): 4:00 P.M. To 11:59 P.M.
+      B08134050s:     Std. Error: Aggregate Travel Time To Work (In Minutes): 4:00 P.M. To 11:59 P.M.
+      B08134051s:     Std. Error: Aggregate Travel Time To Work (In Minutes): 4:00 P.M. To 11:59 P.M.
+      B08134052s:     Std. Error: Aggregate Travel Time To Work (In Minutes): 4:00 P.M. To 11:59 P.M.
+      B08134053s:     Std. Error: Aggregate Travel Time To Work (In Minutes): 4:00 P.M. To 11:59 P.M.
+      B08134054s:     Std. Error: Aggregate Travel Time To Work (In Minutes): 4:00 P.M. To 11:59 P.M.
+      B08134055s:     Std. Error: Aggregate Travel Time To Work (In Minutes): 4:00 P.M. To 11:59 P.M.
+      B08134056s:     Std. Error: Aggregate Travel Time To Work (In Minutes): 4:00 P.M. To 11:59 P.M.
+      B08134057s:     Std. Error: Aggregate Travel Time To Work (In Minutes): 4:00 P.M. To 11:59 P.M.
+      B08134058s:     Std. Error: Aggregate Travel Time To Work (In Minutes): 4:00 P.M. To 11:59 P.M.
+      B08134059s:     Std. Error: Aggregate Travel Time To Work (In Minutes): 4:00 P.M. To 11:59 P.M.
+      B08134060s:     Std. Error: Aggregate Travel Time To Work (In Minutes): 4:00 P.M. To 11:59 P.M.
+      B08134061s:     Std. Error: Aggregate Travel Time To Work (In Minutes): 4:00 P.M. To 11:59 P.M.
+      B08134062s:     Std. Error: Aggregate Travel Time To Work (In Minutes): 4:00 P.M. To 11:59 P.M.
+      B08134063s:     Std. Error: Aggregate Travel Time To Work (In Minutes): 4:00 P.M. To 11:59 P.M.
+      B08134064s:     Std. Error: Aggregate Travel Time To Work (In Minutes): 4:00 P.M. To 11:59 P.M.
+      B08134065s:     Std. Error: Aggregate Travel Time To Work (In Minutes): 4:00 P.M. To 11:59 P.M.
+      B08134066s:     Std. Error: Aggregate Travel Time To Work (In Minutes): 4:00 P.M. To 11:59 P.M.
+      B08134067s:     Std. Error: Aggregate Travel Time To Work (In Minutes): 4:00 P.M. To 11:59 P.M.
+      B08134068s:     Std. Error: Aggregate Travel Time To Work (In Minutes): 4:00 P.M. To 11:59 P.M.
+      B08134069s:     Std. Error: Aggregate Travel Time To Work (In Minutes): 4:00 P.M. To 11:59 P.M.
+      B08134070s:     Std. Error: Aggregate Travel Time To Work (In Minutes): 4:00 P.M. To 11:59 P.M.
+      B08134071s:     Std. Error: Aggregate Travel Time To Work (In Minutes): 4:00 P.M. To 11:59 P.M.
+      B08134072s:     Std. Error: Aggregate Travel Time To Work (In Minutes): 4:00 P.M. To 11:59 P.M.
+      B08134073s:     Std. Error: Aggregate Travel Time To Work (In Minutes): 4:00 P.M. To 11:59 P.M.
+      B08134074s:     Std. Error: Aggregate Travel Time To Work (In Minutes): 4:00 P.M. To 11:59 P.M.
+      B08134075s:     Std. Error: Aggregate Travel Time To Work (In Minutes): 4:00 P.M. To 11:59 P.M.
+      B08134076s:     Std. Error: Aggregate Travel Time To Work (In Minutes): 4:00 P.M. To 11:59 P.M.
+      B08134077s:     Std. Error: Aggregate Travel Time To Work (In Minutes): 4:00 P.M. To 11:59 P.M.
+      B08134078s:     Std. Error: Aggregate Travel Time To Work (In Minutes): 4:00 P.M. To 11:59 P.M.
+      B08134079s:     Std. Error: Aggregate Travel Time To Work (In Minutes): 4:00 P.M. To 11:59 P.M.
+      B08134080s:     Std. Error: Aggregate Travel Time To Work (In Minutes): 4:00 P.M. To 11:59 P.M.
+      B08134081s:     Std. Error: Aggregate Travel Time To Work (In Minutes): 4:00 P.M. To 11:59 P.M.
+      B08134082s:     Std. Error: Aggregate Travel Time To Work (In Minutes): 4:00 P.M. To 11:59 P.M.
+      B08134083s:     Std. Error: Aggregate Travel Time To Work (In Minutes): 4:00 P.M. To 11:59 P.M.
+      B08134084s:     Std. Error: Aggregate Travel Time To Work (In Minutes): 4:00 P.M. To 11:59 P.M.
+      B08134085s:     Std. Error: Aggregate Travel Time To Work (In Minutes): 4:00 P.M. To 11:59 P.M.
+      B08134086s:     Std. Error: Aggregate Travel Time To Work (In Minutes): 4:00 P.M. To 11:59 P.M.
+      B08134087s:     Std. Error: Aggregate Travel Time To Work (In Minutes): 4:00 P.M. To 11:59 P.M.
+      B08134088s:     Std. Error: Aggregate Travel Time To Work (In Minutes): 4:00 P.M. To 11:59 P.M.
+      B08134089s:     Std. Error: Aggregate Travel Time To Work (In Minutes): 4:00 P.M. To 11:59 P.M.
+      B08134090s:     Std. Error: Aggregate Travel Time To Work (In Minutes): 4:00 P.M. To 11:59 P.M.
+      B08134091s:     Std. Error: Aggregate Travel Time To Work (In Minutes): 4:00 P.M. To 11:59 P.M.
+      B08134092s:     Std. Error: Aggregate Travel Time To Work (In Minutes): 4:00 P.M. To 11:59 P.M.
+      B08134093s:     Std. Error: Aggregate Travel Time To Work (In Minutes): 4:00 P.M. To 11:59 P.M.
+      B08134094s:     Std. Error: Aggregate Travel Time To Work (In Minutes): 4:00 P.M. To 11:59 P.M.
+      B08134095s:     Std. Error: Aggregate Travel Time To Work (In Minutes): 4:00 P.M. To 11:59 P.M.
+      B08134096s:     Std. Error: Aggregate Travel Time To Work (In Minutes): 4:00 P.M. To 11:59 P.M.
+      B08134097s:     Std. Error: Aggregate Travel Time To Work (In Minutes): 4:00 P.M. To 11:59 P.M.
+      B08134098s:     Std. Error: Aggregate Travel Time To Work (In Minutes): 4:00 P.M. To 11:59 P.M.
+      B08134099s:     Std. Error: Aggregate Travel Time To Work (In Minutes): 4:00 P.M. To 11:59 P.M.
+      B08134100s:     Std. Error: Aggregate Travel Time To Work (In Minutes): 4:00 P.M. To 11:59 P.M.
+      B08134101s:     Std. Error: Aggregate Travel Time To Work (In Minutes): 4:00 P.M. To 11:59 P.M.
+      B08134102s:     Std. Error: Aggregate Travel Time To Work (In Minutes): 4:00 P.M. To 11:59 P.M.
+      B08134103s:     Std. Error: Aggregate Travel Time To Work (In Minutes): 4:00 P.M. To 11:59 P.M.
+      B08134104s:     Std. Error: Aggregate Travel Time To Work (In Minutes): 4:00 P.M. To 11:59 P.M.
+      B08134105s:     Std. Error: Aggregate Travel Time To Work (In Minutes): 4:00 P.M. To 11:59 P.M.
+      B08134106s:     Std. Error: Aggregate Travel Time To Work (In Minutes): 4:00 P.M. To 11:59 P.M.
+      B08134107s:     Std. Error: Aggregate Travel Time To Work (In Minutes): 4:00 P.M. To 11:59 P.M.
+      B08134108s:     Std. Error: Aggregate Travel Time To Work (In Minutes): 4:00 P.M. To 11:59 P.M.
+      B08134109s:     Std. Error: Aggregate Travel Time To Work (In Minutes): 4:00 P.M. To 11:59 P.M.
+      B08134110s:     Std. Error: Aggregate Travel Time To Work (In Minutes): 4:00 P.M. To 11:59 P.M.
+      B08134111s:     Std. Error: Aggregate Travel Time To Work (In Minutes): 4:00 P.M. To 11:59 P.M.
+      B08134112s:     Std. Error: Aggregate Travel Time To Work (In Minutes): 4:00 P.M. To 11:59 P.M.
+      B08134113s:     Std. Error: Aggregate Travel Time To Work (In Minutes): 4:00 P.M. To 11:59 P.M.
+      B08134114s:     Std. Error: Aggregate Travel Time To Work (In Minutes): 4:00 P.M. To 11:59 P.M.
+      B08134115s:     Std. Error: Aggregate Travel Time To Work (In Minutes): 4:00 P.M. To 11:59 P.M.
+      B08134116s:     Std. Error: Aggregate Travel Time To Work (In Minutes): 4:00 P.M. To 11:59 P.M.
+      B08134117s:     Std. Error: Aggregate Travel Time To Work (In Minutes): 4:00 P.M. To 11:59 P.M.
+      B08134118s:     Std. Error: Aggregate Travel Time To Work (In Minutes): 4:00 P.M. To 11:59 P.M.
+      B08134119s:     Std. Error: Aggregate Travel Time To Work (In Minutes): 4:00 P.M. To 11:59 P.M.
+      B08134120s:     Std. Error: Aggregate Travel Time To Work (In Minutes): 4:00 P.M. To 11:59 P.M.
+      B08141001:      Total
+      B08141002:      Total: No Vehicle Available
+      B08141003:      Total: 1 Vehicle Available
+      B08141004:      Total: 2 Vehicles Available
+      B08141005:      Total: 3 Or More Vehicles Available
+      B08141006:      Total: Car Truck Or Van - Drove Alone
+      B08141007:      Total: Car Truck Or Van - Drove Alone: No Vehicle Available
+      B08141008:      Total: Car Truck Or Van - Drove Alone: 1 Vehicle Available
+      B08141009:      Total: Car Truck Or Van - Drove Alone: 2 Vehicles Available
+      B08141010:      Total: Car Truck Or Van - Drove Alone: 3 Or More Vehicles Available
+      B08141011:      Total: Car Truck Or Van - Carpooled
+      B08141012:      Total: Car Truck Or Van - Carpooled: No Vehicle Available
+      B08141013:      Total: Car Truck Or Van - Carpooled: 1 Vehicle Available
+      B08141014:      Total: Car Truck Or Van - Carpooled: 2 Vehicles Available
+      B08141015:      Total: Car Truck Or Van - Carpooled: 3 Or More Vehicles Available
+      B08141016:      Total: Public Transportation (Excluding Taxicab)
+      B08141017:      Total: Public Transportation (Excluding Taxicab): No Vehicle Available
+      B08141018:      Total: Public Transportation (Excluding Taxicab): 1 Vehicle Available
+      B08141019:      Total: Public Transportation (Excluding Taxicab): 2 Vehicles Available
+      B08141020:      Total: Public Transportation (Excluding Taxicab): 3 Or More Vehicles Available
+      B08141021:      Total: Walked
+      B08141022:      Total: Walked: No Vehicle Available
+      B08141023:      Total: Walked: 1 Vehicle Available
+      B08141024:      Total: Walked: 2 Vehicles Available
+      B08141025:      Total: Walked: 3 Or More Vehicles Available
+      B08141026:      Total: Taxicab Motorcycle Bicycle Or Other Means
+      B08141027:      Total: Taxicab Motorcycle Bicycle Or Other Means: No Vehicle Available
+      B08141028:      Total: Taxicab Motorcycle Bicycle Or Other Means: 1 Vehicle Available
+      B08141029:      Total: Taxicab Motorcycle Bicycle Or Other Means: 2 Vehicles Available
+      B08141030:      Total: Taxicab Motorcycle Bicycle Or Other Means: 3 Or More Vehicles Available
+      B08141031:      Total: Worked From Home
+      B08141032:      Total: Worked From Home: No Vehicle Available
+      B08141033:      Total: Worked From Home: 1 Vehicle Available
+      B08141034:      Total: Worked From Home: 2 Vehicles Available
+      B08141035:      Total: Worked From Home: 3 Or More Vehicles Available
+      B08141001s:     Std. Error: Total: Worked From Home: Householder Lived In Renter-Occupied Housing Units
+      B08141002s:     Std. Error: Total: Worked From Home: Householder Lived In Renter-Occupied Housing Units
+      B08141003s:     Std. Error: Total: Worked From Home: Householder Lived In Renter-Occupied Housing Units
+      B08141004s:     Std. Error: Total: Worked From Home: Householder Lived In Renter-Occupied Housing Units
+      B08141005s:     Std. Error: Total: Worked From Home: Householder Lived In Renter-Occupied Housing Units
+      B08141006s:     Std. Error: Total: Worked From Home: Householder Lived In Renter-Occupied Housing Units
+      B08141007s:     Std. Error: Total: Worked From Home: Householder Lived In Renter-Occupied Housing Units
+      B08141008s:     Std. Error: Total: Worked From Home: Householder Lived In Renter-Occupied Housing Units
+      B08141009s:     Std. Error: Total: Worked From Home: Householder Lived In Renter-Occupied Housing Units
+      B08141010s:     Std. Error: Total: Worked From Home: Householder Lived In Renter-Occupied Housing Units
+      B08141011s:     Std. Error: Total: Worked From Home: Householder Lived In Renter-Occupied Housing Units
+      B08141012s:     Std. Error: Total: Worked From Home: Householder Lived In Renter-Occupied Housing Units
+      B08141013s:     Std. Error: Total: Worked From Home: Householder Lived In Renter-Occupied Housing Units
+      B08141014s:     Std. Error: Total: Worked From Home: Householder Lived In Renter-Occupied Housing Units
+      B08141015s:     Std. Error: Total: Worked From Home: Householder Lived In Renter-Occupied Housing Units
+      B08141016s:     Std. Error: Total: Worked From Home: Householder Lived In Renter-Occupied Housing Units
+      B08141017s:     Std. Error: Total: Worked From Home: Householder Lived In Renter-Occupied Housing Units
+      B08141018s:     Std. Error: Total: Worked From Home: Householder Lived In Renter-Occupied Housing Units
+      B08141019s:     Std. Error: Total: Worked From Home: Householder Lived In Renter-Occupied Housing Units
+      B08141020s:     Std. Error: Total: Worked From Home: Householder Lived In Renter-Occupied Housing Units
+      B08141021s:     Std. Error: Total: Worked From Home: Householder Lived In Renter-Occupied Housing Units
+      B08141022s:     Std. Error: Total: Worked From Home: Householder Lived In Renter-Occupied Housing Units
+      B08141023s:     Std. Error: Total: Worked From Home: Householder Lived In Renter-Occupied Housing Units
+      B08141024s:     Std. Error: Total: Worked From Home: Householder Lived In Renter-Occupied Housing Units
+      B08141025s:     Std. Error: Total: Worked From Home: Householder Lived In Renter-Occupied Housing Units
+      B08141026s:     Std. Error: Total: Worked From Home: Householder Lived In Renter-Occupied Housing Units
+      B08141027s:     Std. Error: Total: Worked From Home: Householder Lived In Renter-Occupied Housing Units
+      B08141028s:     Std. Error: Total: Worked From Home: Householder Lived In Renter-Occupied Housing Units
+      B08141029s:     Std. Error: Total: Worked From Home: Householder Lived In Renter-Occupied Housing Units
+      B08141030s:     Std. Error: Total: Worked From Home: Householder Lived In Renter-Occupied Housing Units
+      B08141031s:     Std. Error: Total: Worked From Home: Householder Lived In Renter-Occupied Housing Units
+      B08141032s:     Std. Error: Total: Worked From Home: Householder Lived In Renter-Occupied Housing Units
+      B08141033s:     Std. Error: Total: Worked From Home: Householder Lived In Renter-Occupied Housing Units
+      B08141034s:     Std. Error: Total: Worked From Home: Householder Lived In Renter-Occupied Housing Units
+      B08141035s:     Std. Error: Total: Worked From Home: Householder Lived In Renter-Occupied Housing Units
+      B08301001:      Total
+      B08301002:      Total: Car Truck Or Van
+      B08301003:      Total: Car Truck Or Van: Drove Alone
+      B08301004:      Total: Car Truck Or Van: Carpooled
+      B08301005:      Total: Car Truck Or Van: Carpooled: In 2-Person Carpool
+      B08301006:      Total: Car Truck Or Van: Carpooled: In 3-Person Carpool
+      B08301007:      Total: Car Truck Or Van: Carpooled: In 4-Person Carpool
+      B08301008:      Total: Car Truck Or Van: Carpooled: In 5- Or 6-Person Carpool
+      B08301009:      Total: Car Truck Or Van: Carpooled: In 7-Or-More-Person Carpool
+      B08301010:      Total: Public Transportation (Excluding Taxicab)
+      B08301011:      Total: Public Transportation (Excluding Taxicab): Bus
+      B08301012:      Total: Public Transportation (Excluding Taxicab): Subway Or Elevated Rail
+      B08301013:      Total: Public Transportation (Excluding Taxicab): Long-Distance Train Or Commuter Rail
+      B08301014:      Total: Public Transportation (Excluding Taxicab): Light Rail Streetcar Or Trolley (Carro Público In Puerto Rico)
+      B08301015:      Total: Public Transportation (Excluding Taxicab): Ferryboat
+      B08301016:      Total: Taxicab
+      B08301017:      Total: Motorcycle
+      B08301018:      Total: Bicycle
+      B08301019:      Total: Walked
+      B08301020:      Total: Other Means
+      B08301021:      Total: Worked From Home
+      B08301001s:     Std. Error: Total: 3 Or More Workers: 4 Or More Vehicles Available
+      B08301002s:     Std. Error: Total: 3 Or More Workers: 4 Or More Vehicles Available
+      B08301003s:     Std. Error: Total: 3 Or More Workers: 4 Or More Vehicles Available
+      B08301004s:     Std. Error: Total: 3 Or More Workers: 4 Or More Vehicles Available
+      B08301005s:     Std. Error: Total: 3 Or More Workers: 4 Or More Vehicles Available
+      B08301006s:     Std. Error: Total: 3 Or More Workers: 4 Or More Vehicles Available
+      B08301007s:     Std. Error: Total: 3 Or More Workers: 4 Or More Vehicles Available
+      B08301008s:     Std. Error: Total: 3 Or More Workers: 4 Or More Vehicles Available
+      B08301009s:     Std. Error: Total: 3 Or More Workers: 4 Or More Vehicles Available
+      B08301010s:     Std. Error: Total: 3 Or More Workers: 4 Or More Vehicles Available
+      B08301011s:     Std. Error: Total: 3 Or More Workers: 4 Or More Vehicles Available
+      B08301012s:     Std. Error: Total: 3 Or More Workers: 4 Or More Vehicles Available
+      B08301013s:     Std. Error: Total: 3 Or More Workers: 4 Or More Vehicles Available
+      B08301014s:     Std. Error: Total: 3 Or More Workers: 4 Or More Vehicles Available
+      B08301015s:     Std. Error: Total: 3 Or More Workers: 4 Or More Vehicles Available
+      B08301016s:     Std. Error: Total: 3 Or More Workers: 4 Or More Vehicles Available
+      B08301017s:     Std. Error: Total: 3 Or More Workers: 4 Or More Vehicles Available
+      B08301018s:     Std. Error: Total: 3 Or More Workers: 4 Or More Vehicles Available
+      B08301019s:     Std. Error: Total: 3 Or More Workers: 4 Or More Vehicles Available
+      B08301020s:     Std. Error: Total: 3 Or More Workers: 4 Or More Vehicles Available
+      B08301021s:     Std. Error: Total: 3 Or More Workers: 4 Or More Vehicles Available
+
+
+
+
+--------------------------------------------------------------------------------
+Citation and Use of Data
+--------------------------------------------------------------------------------
+ 
+All persons are granted a limited license to use this documentation and the
+accompanying data, subject to the following conditions:
+
+* Publications and research reports employing the data
+  must cite it appropriately. The citation should include the following:
+
+	  www.socialexplorer.com
+	  New York City, NY: Social Explorer 2021
+
+
+* Citations should also include the URL for this report:
+
+    http://www.socialexplorer.com/pub/reportdata/HtmlResults.aspx?reportid=R12794912
+
+If you have any questions contact info@socialexplorer.com
