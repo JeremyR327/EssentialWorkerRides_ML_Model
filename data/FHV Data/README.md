@@ -8,3 +8,6 @@
  'Duration': Duration of the trip in terms of minutes]
  
  33,795,291 records in total.
+
+Link to the Google Drive:
+https://drive.google.com/drive/folders/15lxBD8X3F4hgd852lg4KdrkawOB7YHig?usp=sharing
